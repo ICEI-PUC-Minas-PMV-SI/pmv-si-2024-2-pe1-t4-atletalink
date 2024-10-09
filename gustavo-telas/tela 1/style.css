@@ -1,0 +1,169 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  * {
+	font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+
+
+body {
+    background: #fff;
+    font-size: 60px;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background:#fff;
+    height:60px;
+    font-size:16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main {
+    background: #2A406A;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.dados {
+    width: 80vw;
+    height: 80vh;
+    background:#fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.rigth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    font-size: 14px;
+    width:200px 
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    color: #666;
+}
+.left-inner-addon input.form-control {
+    padding-left: 30px;
+}
+
+#genero {
+    text-indent: 15px;
+}
+
+.user-name {
+    color:#2A406A;
+    margin:10px;
+}
+.alterar{
+    color: #2A406A;
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    width:225px;
+}
+.button{ 
+  background-color: #2A406A;
+  color: #eee
+}
