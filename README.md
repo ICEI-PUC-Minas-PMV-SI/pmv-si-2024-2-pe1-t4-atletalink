@@ -12,7 +12,6 @@ AtletaLink é um software inovador que visa conectar pessoas com interesses em a
 
 * Caio Nogueira Menezes
 * Débora Diniz Machado Trindade
-* Fernando Xavier
 * Gustavo Alves de Castro
 * João Vitor Pereira Leite
 * Pedro Henrique da Costa Pereira
