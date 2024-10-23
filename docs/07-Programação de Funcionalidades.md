@@ -29,6 +29,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-017| Acompanhamento cadastro de quadra | João Vitor | tela17.html |
+|RF-018| Castramento de quadra | João Vitor | tela18_19.html |
+|RF-019| Acompanhamento de horários | João Vitor | tela20.html |
+
+
 
 ## Descrição das estruturas:
 
