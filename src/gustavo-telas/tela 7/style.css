@@ -81,7 +81,7 @@
 
 
 body {
-   background: #2a406a;
+  background: #2a406a;
     font-size: 60px;
 
     width: 100vw;
@@ -105,17 +105,32 @@ body {
 .main {
     background: #2A406A;
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    display: flex
+    display: flex;
+    flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 100px;
 }
 
+
 .dados {
-    width: 80vw;
-    height: 80vh;
-    background:#fff;
-    border-radius: 20px;
-    padding: 10px;
+  width: 40vw;
+  height: 75vh;
+  background:#fff;
+  border-radius: 20px;
+  padding: 10px; 
+  border: #7290A3;
+  border-style: solid;
+  border-radius: 20px;
+
+}.dados-2{
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+  flex-direction: row-reverse;
+  display: flex;
 }
 
 
@@ -132,7 +147,7 @@ body {
 
 .input {
     font-size: 14px;
-    width:200px 
+    width:300px 
 }
 
 .left-inner-addon {
@@ -172,9 +187,88 @@ body {
 
 
 
+.alinhar{
+  display: flex;
+}
+
+.box{
+
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: #000;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.button-quadras{
+  display: flex;
+  flex-direction: row;
+  background-color: #FFC911;
+  border-radius: 20px;
+  border-color:#FFC911;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+.pai-2 {
+  display: flex;
+  flex-direction: row ;}
+
+
+.tamanho-imagem {
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.tamanho-imagem2 {
+  width: 550px;
+  margin: auto;
+}
+
+.agendamentos {
+  width: 29vw;
+  height: 5vh;
+  background-color: #eee; 
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.anuncio {
+  display: flex;
+}
+
+.tamanho-imagem3 {
+  width: 550px;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+
+.dados-body-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Entrar{
+  border-radius: 20px;
+  width: 100px;
+  background-color: #2A406A;
+  color: #eee;
+}
+
+
+
+
+
 
 .navbar {
-  background-color: #F5F5F5;
+  
   align-items: center;
 
 
@@ -194,3 +288,9 @@ body {
   font-weight: bold;
   color:#2A406A; 
 }
+
+
+
+
+
+
