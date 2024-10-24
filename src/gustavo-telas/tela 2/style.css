@@ -81,7 +81,7 @@
 
 
 body {
-    background: #fff;
+  background: #2a406a;
     font-size: 60px;
 
     width: 100vw;
@@ -261,3 +261,36 @@ body {
   background-color: #2A406A;
   color: #eee;
 }
+
+
+
+
+
+
+.navbar {
+  
+  align-items: center;
+
+
+}
+.navbar-brand img {
+  
+}
+
+.navbar-right .nav > li > a {
+  padding: 15px 20px;
+  color:#2A406A; 
+}
+
+.navbar-text {
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: bold;
+  color:#2A406A; 
+}
+
+
+
+
+
+

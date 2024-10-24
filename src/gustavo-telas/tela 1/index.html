@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,78 +8,94 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="header">
-    <div class="left">
-        <div class="logo">
-            <img src = "icones/logo.png" alt="My Happy SVG"/>
-        </div>
-    </div>
-<div class="rigth">
-        <div class= "user-name">
-            <h2>Olá, Gustavo Alves</h2>
-        </div> 
-        <div class="options">
-            <img src = "icones/home.svg" alt="My Happy SVG"/>
-            <img src = "icones/agenda.svg" alt="My Happy SVG"/>
-            <img src = "icones/chat.svg" alt="My Happy SVG"/>
-            <img src = "icones/config.svg" alt="My Happy SVG"/>
-        </div>
-    </div>
 
+
+
+<header class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
         
-    </div>
-    <div class="main">
-    <div class="dados">
-        <div class="dados-header"> </div>
-        <div class="dados-body"> 
-            <h2>Informações da conta</h2>
-            <h4>Aqui você pode editar suas informações pessoais</h4>
-            <div class="input">
-                <div>
-                    <div class="form-group left-inner-addon">
-                        <i class="glyphicon glyphicon-user"></i>
-                        <input type="text" class="form-control" value="Gustavo Alves">
-                      </div>
-            </div>
-            <div>
-                <div>
-                    <div class="form-group left-inner-addon">
-                        <div class="form-group left-inner-addon">
-                            <i class="glyphicon glyphicon-phone"></i>
-                            <input type="text" class="form-control" data-mask="(00) 00000-0000"  value="(31) 9176-1234">
-                      </div>
-            </div>
-            </div>
-            <div>
-                <div class="form-group left-inner-addon">
-                    <div class="form-group left-inner-addon">
-                        <i class="glyphicon glyphicon-phone"></i>
-                        <select class="form-control" name="genero" id="genero">
-                            <option value="Masculino">Masculino</option>
-                            <option value="Feminino">Feminino</option>
-                          </select>
-                  </div>
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="icones/logo.png" alt="logomarca AtletaLink" style="height: 40px;">
+            </a>
         </div>
+      
+        <div class="navbar-right">
+            <p class="navbar-text">Olá, João Silva</p>
+           
+            <ul class="nav navbar-nav">
+                <li><a href="#"><img src="icones/home.svg" alt="Home" style="height: 40px;"></a></li>
+                <li><a href="#"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
+                <li><a href="#"><img src="icones/chat.svg" alt="Chat" style="height: 40px;"></a></li>
+                <li><a href="#"><img src="icones/config.svg" alt="Configurações" style="height: 40px;"></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
 
+
+
+
+
+
+
+    <div class="main">
+        <div class="dados">
+            <div class="dados-header"> </div>
+            <div class="dados-body">
+                <h2>Informações da conta</h2>
+                <h4>Aqui você pode editar suas informações pessoais</h4>
+                <div class="input">
+                    <div>
+                        <div class="form-group left-inner-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <input type="text" class="form-control" value="Gustavo Alves">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="form-group left-inner-addon">
+                                <div class="form-group left-inner-addon">
+                                    <i class="glyphicon glyphicon-phone"></i>
+                                    <input type="text" class="form-control" data-mask="(00) 00000-0000"
+                                        value="(31) 9176-1234">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-group left-inner-addon">
+                                <div class="form-group left-inner-addon">
+                                    <i class="glyphicon glyphicon-phone"></i>
+                                    <select class="form-control" name="genero" id="genero">
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Feminino">Feminino</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group left-inner-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                            <input type="text" class="form-control" value="gustavo@gmail.com">
+
+                        </div>
+                        <div class="alterar">
+                            <button type="text" class="button" value="alterar senha"> alterar senha </Button>
+                            <button type="text" class="button" value="salvar dados"> salvar dados </Button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group left-inner-addon">
-                <i class="glyphicon glyphicon-envelope"></i>
-                <input type="text" class="form-control" value="gustavo@gmail.com">
-              
-            </div>
-            <div class="alterar">
-                <button type="text" class="button" value="alterar senha">  alterar senha </Button>
-                <button type="text" class="button" value="salvar dados"> salvar dados </Button>
-            </div>
-        </div>
-    </div>
-    </div>
 </body>
+
 </html>
