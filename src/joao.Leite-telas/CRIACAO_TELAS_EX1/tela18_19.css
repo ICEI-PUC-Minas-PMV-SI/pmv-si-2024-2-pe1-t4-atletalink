@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif !important;
+    color: #2a406a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background-color: #F5F5F5;
+}
+
+.nav {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav nav ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+
+}   
+
+main {
+    background-color: #2a406a;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap:40px;
+    height: calc(100vh - 176px);
+}
+
+main div {
+    background-color: #f1f2f5;
+    border-radius: 20px;
+}
+
+.menu {
+    width: 33%;
+    padding-top: 20px;
+}
+
+.menu ul li img{
+    margin: 0 5% 0 18%;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;  
+}
+
+.cadastro .btn-primary-cadastro {
+    background-color: #2a406a;
+    color: #f1f2f5;
+    width: 30%;
+}
+
+.description {
+    display:flex;
+    gap: 40px
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+footer {
+    background-color: #2a406a;
+    color: #f1f2f5;
+    padding: 0 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1f2f5;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer img {
+    padding: 18px;
+}
+
+/*Modal*/
+.modal-header {
+    background-color: #2a406a;
+    color: white;
+}
+
+.modal-title img {
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    border-top: none;
+}
+
+.modal-footer .btn-secondary {
+   position: absolute;
+   right: 0px;
+   bottom: -1px;
+}
+
+.modal-body form {
+    margin-top: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #2a406a;
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: #f1f2f5;
+}
+
+.modal-lg {
+    max-width: 90%;
+}
+
+.btn-close {
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+
