@@ -40,10 +40,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Formulário de Cadastramento de Quadras
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Nome da Quadara| Texto             | Nome da Quadra                            | Quadra Esporte Nacional|
+| Endereço       | Texto             | Nome da Rua onde a quadra e localizada    | Rua Espirito Santo                             |
+| Número         | Numero (Inteiro)  | Número do Endereli                        | 20                                             |
+| Complemento    | Texto             | Pontos de Referencia do Endereço          | Câmara do Municipal                            |
+| Bairro         | Texto             | Bairro que a rua se encontra              | Centro                                         |
+| Cidade         | Texto             | Nome da Cidade onde a quadra se encontra  | Belo Horizonte                                 |
+| Estado/UF      | Texto             | Estado onde a quadra se encontra          | Minas Gerais                                   |
+| CEP            | Numero (Inteiro)  | Número do CEP da cidade                   | 30110-008                                      |
+| Telefone de Contato | Numero (Inteiro)  | Telefone de contato do responsável   | (31) 99999-9999                                |
+| E-mail         | Texto             | E-mail do reponsável                      | seuemail@email.com                             |
+| Modalidade Esportiva | Texto             | Modalidade esportiva da quadra      | Vôlei                                          |
+| Tipo de Piso   | Texto             | Tipo de piso da quadra                    | Areia                                          |
+| Quadra Coberta | Texto             | Se a quadra possui cobertura              | Sim                                            |
+| Descrição      | Texto             | Descrição da quadra                       | Quadra destinada a prática do vôlei de praia   |
+| Formato dos Horários | Texto       | Horários disponíveis da quadara           | Tarde e Noite                                  |
+
