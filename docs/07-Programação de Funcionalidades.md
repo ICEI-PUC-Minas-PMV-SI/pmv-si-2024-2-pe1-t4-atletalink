@@ -30,7 +30,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-001| Permitir que o usuário esportista faça cadastro| Pedro | index.html |
 |RF-002| Permitir que o usuário gestor de quadra faça cadastro | Pedro | index.html |
 |RF-003| Permitir que os usuários (esportistas e donos de quadra) façam login | Pedro | index.html |
-|RF-004| Permitir que o usuário esportista identifique as modalidades disponíveis | Débora | calendário.html |
+|RF-004| Permitir que o usuário esportista identifique quadras por localidade | Gustavo | tela2/ index.html, tela7/ index.html, tela 15/ index.html e tela 16/index.html |
 |RF-005| Permitir a interação entre usuários através de Fórum |  |  |
 |RF-006| Permitir que o usuário esportista faça agendamento de horário | Débora | calendário.html |
 |RF-007| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | Caio | tela 11 - index.html |
