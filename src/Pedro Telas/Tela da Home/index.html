@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtletaLink</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <img src="images/logo brancaletras recortada.png" alt="">
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Passo a Passo</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contatos</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Bem-Vindo(a)!</h2>
+            <h3 class="subtitle">Conheça as quadras disponíveis na sua cidade!</h3>
+            <p class="description">Encontre uma quadra, agende uma partida e divirta-se, de forma simples e prática</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Conhecer</a>
+              <a href="#contact" class="button contact-us">Contate-nos</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/logo atleta branca.png" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/imagemquemsomos.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Quem Somos</h2>
+            <p class="text">O AtletaLink é uma solução que busca conectar pessoas através da prática de atividades 
+              físicas. A plataforma facilita a  intermediação entre praticantes e gestores de quadras esportivas
+              para superar a dificuldade de encontrar locais adequados e viáveis para a prática de esportes
+              coletivos, além disso, permite aos gestores ampliarem a divulgação do espaço.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">FAQ</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">“Preciso pagar para usar o site?”</h3>
+                <p class="text">O AtletaLink é gratuito, você não precisará pagar nada além do
+                  valor de agendamento.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">“Preciso criar uma conta para usar o site?”</h3>
+                <p class="text">Você pode conhecer o AtletaLink sem ter uma conta, isso será apenas
+                  necessário quando você desejar agendar algum horário.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">“Após eu solicitar um horário, quanto
+                  tempo levará até que ele seja confirmado
+                  para mim?”</h3>
+                <p class="text">O tempo para a confirmação do seu horário poderá variar de
+                  acordo com o dono da quadra.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">“Sou Dono(a) de um centro esportivo e gostaria de
+                  anunciá-lo, como faço?”</h3>
+                <p class="text">Você pode cadastrar uma quadra usando sua conta AtletaLink, clicando no
+                  botão “Anuncie sua quadra no AtletaLink” localizado no Hub quando logado com seu usuário.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">"Posso cancelar uma reserva a qualquer momento?"</h3>
+                <p class="text">As regras de cancelamento de uma reserva de uma quadra são estabelecidas pelos própios proprietários.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              
+              <div class="menu-details">
+                <h3 class="name">"Posso alterar meus dados pessoais?"</h3>
+                <p class="text">Sim você pode alterar seus dados pessoais acessando as configurações no Hub, e em seguida seu perfil.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Depoimentos</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-1.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Lívia Andrade</h3>
+                  <i class="feedback">"Excelente plataforma para intermediar o agendamento de partidas, facilitou muito!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-2.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Anderson Kataguiri</h3>
+                  <i class="feedback">"Solução perfeita para divulgar a minha quadra, a clientela cresceu rapidamente!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Marcelo Andrade</h3>
+
+                  <i class="feedback">"Encontrei ótimas opções de quadra na minha cidade, fantástico!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-4.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Emily Castro</h3>
+
+                  <i class="feedback">"Solução prática e fácil para acompanhar e gerir o fluxo de agendamentos."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-5.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Antônio Azevedo</h3>
+
+                  <i class="feedback">"Ferramenta incrível para descobrir novas modalidades esportivos por perto."</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Passo a Passo</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/Passos1.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/Passos2.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/Passos3.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contate-nos</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 Avenida Ayrton, Jardim Félix, Hamburgo-MG 14015-040</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@atletalinkwebsite.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-78909</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Segunda-Feira - Sexta-Feira: 9:00 - 17:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sábado: 10:00 - 15:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Domingo: Fechado</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.atletalink.com.br</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Seu nome" class="form-input" required />
+            <input type="email" placeholder="Seu email" class="form-input" required />
+            <textarea placeholder="Sua mensagem" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submeter</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 AtletaLink</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Política de Privacidade</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Termos e Condições</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
