@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2A406A;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right .nav > li > a {
+  padding: 15px 20px;
+  color:#2A406A; 
+}
+
+.navbar-text {
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: bold;
+  color:#2A406A !important; 
+}
+
+.main {
+  width: 97vw;
+  height: 83vh;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dados{
+  font-size: 35px;
+  color: #2A406A;
+  text-align: center;
+}
+
+nav{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.opn{
+  display:flex;
+  justify-content: center;
+  h1 {
+    font-family: 'share tech', serif;
+    font-size: 20px;
+    margin: 2px;
+    color: black;
+  }  
+}
+
+.avaliacao{
+ position: relative;
+ bottom: 20%;
+}
+
+label{
+  font-family: 'Roboto';
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+textarea{
+ font-family: 'Roboto';
+ font-size: 20px;
+ display: block;
+ margin: auto;
+}
+
+button{
+ font-family: 'Roboto';
+ font-size: 20px;
+ display: block;
+ margin: auto;
+ margin-top: 20px;
+}
+
+.rating{
+  position: relative;
+  bottom: 0%;
+  right: 20%;
+  transform: translate(-50%,-50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input{
+  display: none;
+}
+
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+
+.rating label:before{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #0e1316;
+}
+
+.rating label:after{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #ffff00;
+  top: 0;
+  opacity: 0;
+  transition: .5;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after{
+  opacity: 1;
+}
+
+footer {
+  background-color: #2a406a;
+  color: #f1f2f5;
+  padding: 0px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f2f5;
+  text-align: center;
+  font-size: 12px;
+}
