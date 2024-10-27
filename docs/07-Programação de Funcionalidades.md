@@ -27,15 +27,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| | |  |
+|RF-001| Permitir que o usuário esportista faça cadastro| Gustavo | telas 2, 7, 15 e 16 - index.html |
+|RF-002| Permitir que o usuário gestor de quadra faça cadastro | João Vitor | tela18_19.html |
+|RF-003| Permitir que os usuários (esportistas e donos de quadra) façam login |  | tela - index.html |
+|RF-004| Permitir que o usuário esportista use ferramentas de busca para encontrar quadras disponíveis por modalidade |  |  |
+|RF-005| Permitir a interação entre usuários através de Fórum |  |  |
 |RF-006| Permitir que o usuário esportista faça agendamento de horário | Débora | calendário.html |
-|RF-002| A aplicação deve permitir a alteração dos dados da conta | Gustavo | tela 2/index.html |
-|RF-007| A aplicação deve permitir vizualizar um mapa local é as quadras disponíveis | Gustavo | tela 7/index.html |
-|RF-015| A aplicação deve permitir vizualizar um mapa local é as quadras disponíveis + agendamentos | Gustavo | tela 15/index.html |
-|RF-016|  A aplicação deve permitir vizualizar um mapa local é as quadras disponíveis + informações | Gustavo | tela 16/index.html |
-|RF-017| Acompanhamento cadastro de quadra | João Vitor | tela17.html |
-|RF-018| Castramento de quadra | João Vitor | tela18_19.html |
-|RF-019| Acompanhamento de horários | João Vitor | tela20.html |
+|RF-007| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | Caio | tela 11 - index.html |
+|RF-008| Permitir que o usuário gestor de quadra disponibilize agenda de horários para reseva | João Vitor | tela20.html |
+|RF-009| Permitir que o usuário gestor de quadra divulgue informações sobre a quadra e divulgue eventos | João Vitor | tela20.html |
+|RF-010| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
+|RF-011| A plataforma gerará relatórios para o uso dos gestores de quadra | João Vitor | tela17.html |
 
 
 
