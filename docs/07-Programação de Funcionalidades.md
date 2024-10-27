@@ -47,9 +47,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Nome da Quadara| Texto             | Nome da Quadra                            | Quadra Esporte Nacional|
-| Endereço       | Texto             | Nome da Rua onde a quadra e localizada    | Rua Espirito Santo                            
-| Número         | Numero (Inteiro)  | Número do Endereli                        | 20                                             |
+| Nome da Quadara| Texto             | Nome da Quadra                            | Quadra Esporte Nacional                        |
+| Endereço       | Texto             | Nome da Rua onde a quadra e localizada    | Rua Espirito Santo                             |
+|| Número        | Numero (Inteiro)  | Número do Endereli                        | 20                                             |
 | Complemento    | Texto             | Pontos de Referencia do Endereço          | Câmara do Municipal                            |
 | Bairro         | Texto             | Bairro que a rua se encontra              | Centro                                         |
 | Cidade         | Texto             | Nome da Cidade onde a quadra se encontra  | Belo Horizonte                                 |
@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Descrição      | Texto             | Descrição da quadra                       | Quadra destinada a prática do vôlei de praia   |
 | Formato dos Horários | Texto       | Horários disponíveis da quadara           | Tarde e Noite                                  |
 
-## Formulário de Cadastramento de Quadras
+## Formulário de Cadastramento de novos usuários
 |  **Nome**          | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:------------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Nome Completo      | text              | Nome completo do usuário                  | Michel Miguel Elias Temer Lulia                |
