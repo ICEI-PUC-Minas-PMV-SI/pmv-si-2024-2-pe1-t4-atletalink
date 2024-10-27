@@ -66,10 +66,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Formulário de Cadastramento de novos usuários
 |  **Nome**          | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:------------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Nome Completo      | text              | Nome completo do usuário                  | Michel Miguel Elias Temer Lulia                |
-| Telefone           | tel               | Número de telefone do usuário             | (21) 93737-3737                                |
-| Email              | email             | Endereço eletrônico do usuário            | joaosilva@gmail.com                            |
-| Data de Nascimento | date              | Data de Nascimento do usuário             | 10/10/2000                                     |
-| Senha              | password          | Chave de acesso da conta do usuário       | astrazuni2077!                                 |
+| Nome Completo      | Texto             | Nome completo do usuário                  | Michel Miguel Elias Temer Lulia                |
+| Telefone           | Número            | Número de telefone do usuário             | (21) 93737-3737                                |
+| Email              | Texto             | Endereço eletrônico do usuário            | joaosilva@gmail.com                            |
+| Data de Nascimento | Número            | Data de Nascimento do usuário             | 10/10/2000                                     |
+| Senha              | Texto             | Chave de acesso da conta do usuário       | astrazuni2077!                                 |
+
+## Formulário de Login
+|  **Nome**          | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:------------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Email              | Texto             | Endereço eletrônico do usuário            | joaosilva@gmail.com                            |
+| Senha              | Texto             | Chave de acesso da conta do usuário       | astrazuni2077!                                 |
 
 
