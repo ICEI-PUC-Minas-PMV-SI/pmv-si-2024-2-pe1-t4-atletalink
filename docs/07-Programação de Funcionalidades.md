@@ -48,7 +48,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
 | Nome da Quadara| Texto             | Nome da Quadra                            | Quadra Esporte Nacional|
-| Endereço       | Texto             | Nome da Rua onde a quadra e localizada    | Rua Espirito Santo                             |
+| Endereço       | Texto             | Nome da Rua onde a quadra e localizada    | Rua Espirito Santo                            
 | Número         | Numero (Inteiro)  | Número do Endereli                        | 20                                             |
 | Complemento    | Texto             | Pontos de Referencia do Endereço          | Câmara do Municipal                            |
 | Bairro         | Texto             | Bairro que a rua se encontra              | Centro                                         |
@@ -62,4 +62,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Quadra Coberta | Texto             | Se a quadra possui cobertura              | Sim                                            |
 | Descrição      | Texto             | Descrição da quadra                       | Quadra destinada a prática do vôlei de praia   |
 | Formato dos Horários | Texto       | Horários disponíveis da quadara           | Tarde e Noite                                  |
+
+## Formulário de Cadastramento de Quadras
+|  **Nome**          | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:------------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome Completo      | text              | Nome completo do usuário                  | Michel Miguel Elias Temer Lulia                |
+| Telefone           | tel               | Número de telefone do usuário             | (21) 93737-3737                                |
+| Email              | email             | Endereço eletrônico do usuário            | joaosilva@gmail.com                            |
+| Data de Nascimento | date              | Data de Nascimento do usuário             | 10/10/2000                                     |
+| Senha              | password          | Chave de acesso da conta do usuário       | astrazuni2077!                                 |
+
 
