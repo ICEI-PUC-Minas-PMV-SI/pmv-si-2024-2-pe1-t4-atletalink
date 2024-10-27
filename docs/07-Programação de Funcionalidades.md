@@ -27,7 +27,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
+|RF-001| | |  |
+|RF-006| Permitir que o usuário esportista faça agendamento de horário | Débora | calendário.html |
 |RF-002| A aplicação deve permitir a alteração dos dados da conta | Gustavo | tela 2/index.html |
 |RF-007| A aplicação deve permitir vizualizar um mapa local é as quadras disponíveis | Gustavo | tela 7/index.html |
 |RF-015| A aplicação deve permitir vizualizar um mapa local é as quadras disponíveis + agendamentos | Gustavo | tela 15/index.html |
