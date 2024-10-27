@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos e ícones externos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Calendário</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="img/logo.png" alt="logomarca AtletaLink" style="height: 40px;">
+                </a>
+            </div>
+            <div class="navbar-right">
+                <p class="navbar-text">Olá, João Silva</p>
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><img src="img/home.svg" alt="Página Inicial" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="img/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="img/chat.svg" alt="Chat" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="img/config.svg" alt="Configurações" style="height: 40px;"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+    <div class="estrutura-geral">
+        <div id="box1" class="container">
+            <img src="img/arrow-left.svg"><br>
+            <h2><img src="img/Location.svg"> Localidade selecionada:</h2>
+            <p class="local"> Belo Horizonte/MG</p>
+            <h2 class="titulocontainer"><img src="img/quadra.svg"> Centro Esportivo Selecionado:</h2>
+            <div class="infoquadra"> 
+                <div class="textoquadra"> 
+                    <img class="logoquadra" src="img/image.svg" alt="logo da quadra">
+                </div>
+                <h3 class="nomequadra"> Arena Aba </h3>
+                <div class="textoavaliacao">
+                    <p><img src="img/Star.svg" alt="ícone de avaliação"> 4,8 (8 avaliações)</p> 
+                    <p> Av. Cristiano Machado, 123 , Cidade Nova,<br> Belo Horizonte/MG, CEP 30333-333</p>
+                </div> 
+            </div>
+           <div class="btnopcoes">
+            <button>Descrição</button>
+            <button>Informações Gerais</button>
+            <button>Regras de Cancelamento</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Seção do calendário -->
+
+    <div class="caixasuperior">
+        <h2> <img src="img/Tear-Off Calendar.svg">  Antes de prosseguir, selecione a data em que deseja agendar uma partida:</h2>
+        
+        <div class="calendar">
+            <div class="header">
+                <button id="prevBtn">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="monthYear" id="monthYear"></div>
+                <button id="nextBtn">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="days">
+                <div class="day">Seg</div>
+                <div class="day">Ter</div>
+                <div class="day">Qua</div>
+                <div class="day">Qui</div>
+                <div class="day">Sex</div>
+                <div class="day">Sab</div>
+                <div class="day">Dom</div>
+            </div>
+            <div class="dates" id="dates"></div>
+        </div>
+          <!-- Botão para abrir o modal de horários -->
+        <button class="btn-confirmar" data-toggle="modal" data-target=".bd-example-modal-lg">Confirmar</button>
+    </div>
+
+        <!-- Modal de horários -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <h4> <img src="img/Clock.svg">Selecione o horário da quadra desejada:</h4>
+                    <div class="quadra1"> 
+                        <img src="img/imagemquadra.svg">
+                        <p>Quadra de Areia</p>
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group mr-2" role="group">
+                                <button type="button" class="btn btn-secondary">9h-10h</button> 
+                                <button type="button" class="btn btn-secondary" disabled>10h-11h</button>
+                                <button type="button" class="btn btn-secondary">11h-12h</button>
+                                <button type="button" class="btn btn-secondary">16h-17h</button> 
+                                <button type="button" class="btn btn-secondary" disabled>17h-18h</button>
+                                <button type="button" class="btn btn-secondary">18h-19h</button>
+                                <button type="button" class="btn btn-secondary">19h-20h</button>
+                                <button type="button" class="btn btn-secondary">20h-21h</button>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quadra2">
+                        <img src="img/society.svg">
+                        <p>Quadra Society</p>
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group mr-2" role="group">
+                                <button type="button" class="btn btn-secondary">9h-10h</button> 
+                                <button type="button" class="btn btn-secondary" disabled>10h-11h</button>
+                                <button type="button" class="btn btn-secondary">11h-12h</button>
+                                <button type="button" class="btn btn-secondary">16h-17h</button> 
+                                <button type="button" class="btn btn-secondary" disabled>17h-18h</button>
+                                <button type="button" class="btn btn-secondary" disabled>18h-19h</button>
+                                <button type="button" class="btn btn-secondary">19h-20h</button>
+                                <button type="button" class="btn btn-secondary"disabled>20h-21h</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rodapé do modal -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Solicitar Agendamento</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <img src="img/logoatletabranca.png" alt="" width="90px">
+        <a href="#">AtletaLink Technologies<br>Copyright 2024<br>Todos os Direitos Reservados</a>
+        <a href="#">Política de privacidade</a>
+        <a href="#">Termos e condições de uso</a>
+        <a href="#">Código de conduta</a>
+        <a href="#">Política de Cookies</a>
+    </footer>
+
+    <!-- Scripts externos e do projeto -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
