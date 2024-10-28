@@ -286,3 +286,22 @@ body {
   font-weight: bold;
   color:#2A406A; 
 }
+
+
+
+footer {
+  background-color: #2a406a;
+  color: #f1f2f5;
+  padding: 0 50px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f2f5;
+  text-align: center;
+  font-size: 12px;
+}
