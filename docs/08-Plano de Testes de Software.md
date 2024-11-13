@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT00 - Criar conta parte 1** [exemplo]
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
 **Requisitos associados** | RF-001
@@ -33,7 +33,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT00- Criar conta parte 2** [exemplo]
  :--------------: | ------------
 **Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
 **Requisitos associados** | RF-001
@@ -41,22 +41,34 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | CT01 - Solicitar agendamento de quadra 
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento".
+**Requisitos associados** | RF-006
+**Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
+**Dados de entrada** | Seleção do dia e do horário pretendido
+**Resultado obtido** | Sucesso
+             
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT00 - Criar conta parte 1*                                         | [exemplo]
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT00 - Criar conta parte 2*                                        | [exemplo]
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |CT01 - Solicitar agendamento de quadra                                          |
+|---|---|
+|Requisito Associado | RF-006 - Permitir que o usuário esportista faça agendamento de horário|
+|Link do vídeo do teste realizado: | http://... | 
 
-## Avaliação dos Testes de Software
+
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
@@ -91,16 +103,21 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
-## Cenários de Teste de Usabilidade
+## Cenários de Teste de Usabilidade [exemplo]
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
 | 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
 
+## Cenários de Teste de Usabilidade da funcionalidade de Agendameto pelo usuário esportista
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é uma pessoa que deseja agendar uma partida de futebol em Belo Horizonte. Encontre no site uma quadra disponível para a modalidade esportiva.  
 
 
-## Registro de Testes de Usabilidade
+## Registro de Testes de Usabilidade [exemplo]
 
 Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
 
@@ -133,6 +150,20 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+## Registro de Testes de Usabilidade da Funcionalidade de agendamento pelo usuário esportista
+
+Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | x segundos                  |
+| 2       | SIM             | 5                    | x  segundos                  |
+| 3       | SIM             | 5                    | x segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | x segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | x  segundos |
+
 
 ## Avaliação dos Testes de Usabilidade
 
