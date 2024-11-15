@@ -48,6 +48,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
 **Dados de entrada** | Seleção do dia e do horário pretendido
 **Resultado obtido** | Sucesso
+
+**Caso de Teste** | CT015 - pesquisar quadras
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.home.com.br <br> 2) Selecione a barra de pesquisa <br> 3) pesquise pela quadra <br> 3) Clique no botão "Solicitar agendamento".
+**Requisitos associados** | RF-006
+**Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
+**Dados de entrada** | Seleção do dia e do horário pretendido
+**Resultado obtido** | Sucesso
              
 ## Registro dos Testes de Software
 
