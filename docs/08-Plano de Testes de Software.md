@@ -53,7 +53,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.home.com.br <br> 2) Selecione a barra de pesquisa <br> 3) pesquise pela quadra <br> 
 **Requisitos associados** | RF-015
-**Resultado esperado** | aparecer as quadras relacionadas as pesquisas                                                                                             
+**Resultado esperado** | aparecer as quadras relacionadas a pesquisa                                                                                            
 **Dados de entrada** | "nomes de quadras"
 **Resultado obtido** | Sucesso
              
