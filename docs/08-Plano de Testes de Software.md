@@ -49,6 +49,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Seleção do dia e do horário pretendido
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | CT02 - alterar senha
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.configurações.com.br <br> 2) selecione a opcão alterar senha<br> 3) digite a nova senha <br> 4)selecione "salvar dados" <br>
+**Requisitos associados** | RF-02
+**Resultado esperado** | alterar a senha para uma nova                                                                                           
+**Dados de entrada** | "nova senha"
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | CT015 - pesquisar quadras
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.home.com.br <br> 2) Selecione a barra de pesquisa <br> 3) pesquise pela quadra <br> 
