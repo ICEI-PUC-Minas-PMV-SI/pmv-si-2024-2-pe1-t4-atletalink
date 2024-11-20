@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="tela18_19.css">
+    <script src="tela18_19.js" defer></script>
 </head>
 
 <body>
@@ -36,15 +37,15 @@
         <div class="menu">
             <ul>
                 <li>
-                    <img src="homeEX_1.svg" alt=""> Visão Geral
+                    <a href="tela17.html"><img src="homeEX_1.svg" alt=""> Visão Geral</a>                 
                 </li>
                 <hr>
                 <li>
-                    <img src="agendaEX_1.svg" alt=""> Locações
+                    <a href="tela20.html"><img src="agendaEX_1.svg" alt=""> Locações</a>
                 </li>
                 <hr>
                 <li>
-                    <img src="quadraEX_1.svg" alt=""> Quadras
+                    <a href="tela18_19.html"><img src="quadraEX_1.svg" alt=""> Quadras</a>  
                 </li>
                 <hr>
                 <li>
@@ -104,27 +105,27 @@
                                 <div class="mb-3">
                                     <label for="nomeQuadra" class="form-label"><img src="setaEX_1.svg" alt="">Nome da
                                         quadra:</label>
-                                    <input type="text" class="form-control" id="nomeQuadra">
+                                    <input required type="text" class="form-control" id="nomeQuadra" name="nomeQuadra">
                                 </div>
                                 <div class="mb-3">
                                     <label for="endereco" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Endereço/Logradouro:</label>
-                                    <input type="text" class="form-control" id="endereco">
+                                    <input type="text" class="form-control" id="endereco" name="endereco">
                                 </div>
                                 <div class="mb-3">
                                     <label for="numero" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Número:</label>
-                                    <input type="text" class="form-control" id="numero">
+                                    <input type="text" class="form-control" id="numero" name="numero">
                                 </div>
                                 <div class="mb-3">
                                     <label for="complemento" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Complemento:</label>
-                                    <input type="text" class="form-control" id="complemento">
+                                    <input type="text" class="form-control" id="complemento" name="complemento">
                                 </div>
                                 <div class="mb-3">
                                     <label for="bairro" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Bairro:</label>
-                                    <input type="text" class="form-control" id="bairro">
+                                    <input type="text" class="form-control" id="bairro" name="bairro">
                                 </div>
                             </div>
 
@@ -132,25 +133,25 @@
                                 <div class="mb-3">
                                     <label for="cidade" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Cidade:</label>
-                                    <input type="text" class="form-control" id="cidade">
+                                    <input type="text" class="form-control" id="cidade" name="cidade">
                                 </div>
                                 <div class="mb-3">
                                     <label for="estado" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Estado/UF:</label>
-                                    <input type="text" class="form-control" id="estado">
+                                    <input type="text" class="form-control" id="estado" name="estado">
                                 </div>
                                 <div class="mb-3">
                                     <label for="cep" class="form-label"><img src="setaEX_1.svg" alt="">CEP:</label>
-                                    <input type="text" class="form-control" id="cep">
+                                    <input type="text" class="form-control" id="cep" name="cep">
                                 </div>
                                 <div class="mb-3">
                                     <label for="telefone" class="form-label"><img src="setaEX_1.svg" alt="">Telefone
                                         para contato:</label>
-                                    <input type="text" class="form-control" id="telefone">
+                                    <input type="text" class="form-control" id="telefone" name="telefone">
                                 </div>
                                 <div class="mb-3">
                                     <label for="email" class="form-label"><img src="setaEX_1.svg" alt="">E-mail:</label>
-                                    <input type="email" class="form-control" id="email">
+                                    <input type="email" class="form-control" id="email" name="email">
                                 </div>
                             </div>
 
@@ -158,36 +159,37 @@
                                 <div class="mb-3">
                                     <label for="modalidade" class="form-label"><img src="setaEX_1.svg" alt="">Modalidade
                                         Esportiva:</label>
-                                    <input type="text" class="form-control" id="modalidade">
+                                    <input type="text" class="form-control" id="modalidade" name="modalidade">
                                 </div>
                                 <div class="mb-3">
                                     <label for="tipoPiso" class="form-label"><img src="setaEX_1.svg" alt="">Tipo de
                                         piso:</label>
-                                    <input type="text" class="form-control" id="tipoPiso">
+                                    <input type="text" class="form-control" id="tipoPiso" name="tipoPiso">
                                 </div>
                                 <div class="mb-3">
                                     <label for="quadraCoberta" class="form-label"><img src="setaEX_1.svg" alt="">Quadra
                                         Coberta?</label>
-                                    <input type="text" class="form-control" id="quadraCoberta">
+                                    <input type="text" class="form-control" id="quadraCoberta" name="quadraCoberta">
                                 </div>
                                 <div class="mb-3">
                                     <label for="descricao" class="form-label"><img src="setaEX_1.svg"
                                             alt="">Descrição:</label>
-                                    <input type="text" class="form-control" id="descricao">
+                                    <input type="text" class="form-control" id="descricao" name="descricao">
                                 </div>
                                 <div class="mb-3">
                                     <label for="horarios" class="form-label"><img src="setaEX_1.svg" alt="">Formato dos
                                         horários:</label>
-                                    <input type="text" class="form-control" id="horarios">
+                                    <input type="text" class="form-control" id="horarios" name="horarios">
                                 </div>
                             </div>
                         </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success">Concluir Cadastro</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success">Concluir Cadastro</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
+
             </div>
         </div>
     </div>
