@@ -15,13 +15,15 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 
-<body>
 
 
 
-<header class="navbar navbar-default">
+
+
+<header onload="init()"  class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
         
@@ -31,7 +33,7 @@
         </div>
       
         <div class="navbar-right">
-            <p class="navbar-text">Olá, João Silva</p>
+            <p class="navbar-text" id="nomeUsuario">Olá,</p>
            
             <ul class="nav navbar-nav">
                 <li><a href="#"><img src="icones/home.svg" alt="Home" style="height: 40px;"></a></li>
@@ -56,10 +58,11 @@
                 <h2>Informações da conta</h2>
                 <h4>Aqui você pode editar suas informações pessoais</h4>
                 <div class="input">
+                    <input type="hidden" id="id">
                     <div>
                         <div class="form-group left-inner-addon">
                             <i class="glyphicon glyphicon-user"></i>
-                            <input type="text" class="form-control" value="Gustavo Alves">
+                            <input type="text" class="form-control" value="" id="name" >
                         </div>
                     </div>
                     <div>
@@ -68,14 +71,14 @@
                                 <div class="form-group left-inner-addon">
                                     <i class="glyphicon glyphicon-phone"></i>
                                     <input type="text" class="form-control" data-mask="(00) 00000-0000"
-                                        value="(31) 9176-1234">
+                                        value="" id="telefone">
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="form-group left-inner-addon">
                                 <div class="form-group left-inner-addon">
-                                    <i class="glyphicon glyphicon-phone"></i>
+                                    <i class="glyphicon glyphicon-user"></i>
                                     <select class="form-control" name="genero" id="genero">
                                         <option value="Masculino">Masculino</option>
                                         <option value="Feminino">Feminino</option>
@@ -86,16 +89,63 @@
                         </div>
                         <div class="form-group left-inner-addon">
                             <i class="glyphicon glyphicon-envelope"></i>
-                            <input type="text" class="form-control" value="gustavo@gmail.com">
+                            <input type="text" class="form-control" value="gustavo@gmail.com" id="email">
 
                         </div>
+                        <div class="form-group left-inner-addon" style="display: none;" id="campo-senha">
+                            <i class="glyphicon glyphicon glyphicon-wrench"></i>
+                            <input type="password" class="form-control" value="" id="senha">
+                        </div>
                         <div class="alterar">
-                            <button type="text" class="button" value="alterar senha"> alterar senha </Button>
-                            <button type="text" class="button" value="salvar dados"> salvar dados </Button>
+                            <button type="text" class="button" value="alterar senha" onclick="mudarSenha()"> alterar senha </Button>
+                            <button type="text" class="button" value="salvar dados" onclick="Formulario()"> salvar dados </Button>
                         </div>
                     </div>
                 </div>
             </div>
-</body>
+        </div>
+    </div>
+<footer>
+    <img src="icones/logoProjeto2EX_1.svg" alt="" width="77px" height="130px">
+    <a href="#">AtletaLink Technologies <br> Copyright 2024 <br> Todos os Direitos Reservados</a>
+    <a href="#">Política de privacidade</a>
+    <a href="#">Termos e condições de uso</a>
+    <a href="#">Código de conduta</a>
+    <a href="#">Política de Cookies</a>
+</footer>
+
+
+<script>
+
+    function initPage() {
+        // Informa o nome do usuário logado
+        console.log(sessionStorage.getItem("usuarioCorrente"))
+        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
+        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
+        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).telefone ;
+        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).email ;
+        
+    }
+
+    function Formulario() {
+        var cliente = JSON.stringify({
+		nome  : document.getElementById('name').value,
+		telefone : document.getElementById("telefone").value,
+		sexo : document.getElementById("genero").value,
+		email : document.getElementById("email").value,
+        senha : document.getElementById("senha").value === "" ?JSON.parse(sessionStorage.getItem("usuarioCorrente")).senha : document.getElementById("senha").value,
+	});
+    console.log(cliente)
+    sessionStorage.setItem ('usuarioCorrente', cliente);
+    initPage()
+    }
+
+    function mudarSenha() {
+        document.getElementById("campo-senha").style.display = "flex";
+}
+
+    // Associa ao evento de carga da página a função para verificar se o usuário está logado
+    window.addEventListener('load', initPage);
+</script>
 
 </html>

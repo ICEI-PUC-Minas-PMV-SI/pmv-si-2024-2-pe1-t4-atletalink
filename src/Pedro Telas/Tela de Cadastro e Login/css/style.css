@@ -178,13 +178,13 @@ input:-webkit-autofill
     border-bottom-left-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    animation: slidein 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slidein 1.3s; 
 
     z-index: 12;
 }
 
 .sign-up-js .content::before {
-    animation: slideout 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slideout 1.3s; 
 
     z-index: 12;
 }
@@ -208,13 +208,13 @@ input:-webkit-autofill
 
     z-index: -1;
     position: relative;
-    animation: deslocamentoEsq 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoEsq 1.3s; 
 }
 
 .sign-up-js .second-content .second-column {
     position: relative;
     z-index: -1;
-    animation: deslocamentoDir 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoDir 1.3s; 
 }
 
 /*ANIMAÇÃOO CSS PARA O CONTEÚDO*/
@@ -230,13 +230,13 @@ input:-webkit-autofill
     25% {
         left: -80px;
         opacity: .5;
-        /* z-index: 12; NÃO HÁ NECESSIDADE */
+        
     }
 
     50% {
         left: -100px;
         opacity: .2;
-        /* z-index: 12; NÃO HÁ NECESSIDADE */
+        
     }
 
     to {
@@ -261,8 +261,7 @@ input:-webkit-autofill
 
     50% {
         left: 100px;
-        /* z-index: 12; NÃO HÁ NECESSIDADE*/
-        /* background-color: yellow;  Exemplo que dei no vídeo*/
+        
     }
 
     to {
@@ -363,7 +362,7 @@ input:-webkit-autofill
         width: 90%;
     }
     
-    /* ANIMAÇÃO MOBILE CSS*/
+    
 
     @keyframes deslocamentoEsq {
 
@@ -376,13 +375,13 @@ input:-webkit-autofill
         25% {
             top: -80px;
             opacity: .5;
-            /* z-index: 12; NÃO HÁ NECESSIDADE */
+            
         }
     
         50% {
             top: -100px;
             opacity: .2;
-            /* z-index: 12; NÃO HÁ NECESSIDADE */
+            
         }
     
         to {
@@ -402,13 +401,12 @@ input:-webkit-autofill
     
         25% {
             top: 80px;
-            /* z-index: 12;  NÃO HÁ NECESSIDADE*/
+            
         }
     
         50% {
             top: 100px;
-            /* z-index: 12; NÃO HÁ NECESSIDADE*/
-            /* background-color: yellow;  Exemplo que dei no vídeo*/
+            
         }
     
         to {

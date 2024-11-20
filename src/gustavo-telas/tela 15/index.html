@@ -62,19 +62,21 @@
                 <div class="input">
                     <div class="form-group left-inner-addon">
                         <i class="glyphicon glyphicon-search"></i>
-                        <input type="text" class="form-control" value="Pesquisar por Centro Esportivo">
+                        <input type="text" class="form-control search" placeholder="Pesquisar por Centro Esportivo">
                     </div>
 
 
                 </div>
+                <div class="list">
                 <div class="box">
+
                
                     <div>
                         <img class="tamanho-imagem" src="icones/quadras/quadra-1.png" alt="My Happy SVG" />
                     </div>
               
                     <div>
-                        <div class="pai-2">
+                        <div class="pai-1">
                             <h5>Arena Túnel Av Cristiano Machado</h5>
                             <h5>| 9 quadras</h5>
                         </div>
@@ -99,7 +101,7 @@
                     </div>
               
                     <div>
-                        <div class="pai-2">
+                        <div class="pai-1">
                             <h5>Arena Túnel Raja </h5>
                             <h5>| 5 quadras</h5>
                         </div>
@@ -124,7 +126,7 @@
                     </div>
               
                     <div>
-                        <div class="pai-2">
+                        <div class="pai-1">
                             <h5>Arena Aba </h5>
                             <h5>| 1 quadras</h5>
                         </div>
@@ -140,6 +142,7 @@
 
 
                 </div>
+            </div>
             </div>
         </div>
 
@@ -162,5 +165,46 @@
         </div>
     </div>
 </body>
+
+<footer>
+    <img src="icones/logoProjeto2EX_1.svg" alt="" width="77px" height="130px">
+    <a href="#">AtletaLink Technologies <br> Copyright 2024 <br> Todos os Direitos Reservados</a>
+    <a href="#">Política de privacidade</a>
+    <a href="#">Termos e condições de uso</a>
+    <a href="#">Código de conduta</a>
+    <a href="#">Política de Cookies</a>
+</footer>
+
+
+<script>
+    const filterElement = document.querySelector('.search')
+    console.log(filterElement)
+    const cards = document.querySelectorAll('.box')
+    console.log(cards.length)
+     filterElement.addEventListener('input', filterCards)
+
+     function filterCards(){
+        console.log(filterElement.value)
+        if(filterElement.value !== '') {
+            for (let card of cards) {
+                let title = card.querySelector('.pai-1 h5')
+                console.log("title",title)
+                title= title.textContent.toLowerCase()
+                let filterText = filterElement.value.toLowerCase()
+                console.log("filterText",filterText)
+                if(!title.includes(filterText)) {
+                    card.style.display ="none"
+                }
+                else{
+                    card.style.display = "flex"
+                }
+            } 
+         } else {
+            for (let card of cards){
+                card.style.display ="flex"
+            }                            
+         }
+     }
+</script>
 
 </html>

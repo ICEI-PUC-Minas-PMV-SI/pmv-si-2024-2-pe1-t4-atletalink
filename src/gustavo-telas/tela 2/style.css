@@ -111,8 +111,8 @@ body {
 }
 
 .dados {
-    width: 80vw;
-    height: 80vh;
+    width: 60vw;
+    height: 70vh;
     background:#fff;
     border-radius: 20px;
     padding: 10px;
@@ -193,4 +193,21 @@ body {
   font-size: large;
   font-weight: bold;
   color:#2A406A; 
+}
+
+footer {
+  background-color: #2a406a;
+  color: #f1f2f5;
+  padding: 0 50px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f2f5;
+  text-align: center;
+  font-size: 12px;
 }

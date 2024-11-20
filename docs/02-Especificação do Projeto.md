@@ -71,7 +71,7 @@ Enzo Henrique é técnico em administração e, desde que seu pai precisou dedic
 |RF-001| Permitir que o usuário esportista faça cadastro | ALTA | 
 |RF-002| Permitir que o usuário gestor de quadra faça cadastro  | ALTA |
 |RF-003| Permitir que os usuários (esportistas e donos de quadra) façam login | ALTA |
-|RF-004| Permitir que o usuário esportista use ferramentas de busca para encontrar quadras disponíveis por modalidade | ALTA |
+|RF-004| Permitir que o usuário esportista use ferramentas de busca para encontrar quadras disponíveis por cidade | ALTA |
 |RF-005| Permitir a interação entre usuários através de Fórum | MÉDIA |
 |RF-006| Permitir que o usuário esportista faça agendamento de horário | ALTA |
 |RF-007| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | MÉDIA |
