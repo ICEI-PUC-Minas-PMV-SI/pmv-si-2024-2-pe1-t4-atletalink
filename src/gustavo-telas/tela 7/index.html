@@ -40,11 +40,11 @@
             </div>
           
             <div class="navbar-right">
-                <p class="navbar-text">Olá, João Silva</p>
+                <p class="navbar-text" id="nomeUsuario">Olá,</p>
                
                 <ul class="nav navbar-nav">
-                    <li><a href="#"><img src="icones/home.svg" alt="Home" style="height: 40px;"></a></li>
-                    <li><a href="#"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
+                    <li><a href="../../Pedro Telas/Tela da Home/index.html"><img src="icones/home.svg" alt="Home" style="height: 40px;"></a></li>
+                    <li><a href="../../joao.Leite-telas/CRIACAO_TELAS_EX1/tela17.html"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
                     <li><a href="#"><img src="icones/chat.svg" alt="Chat" style="height: 40px;"></a></li>
                     <li onclick="show()"><a href="#"><img src="icones/config.svg" alt="Configurações" style="height: 40px;"></a></li>
                 </ul>
@@ -172,7 +172,9 @@
     <div class="modal" onclick="hide()">
         <div class="quadrado">
             <div>
+                <a href="../tela 2/index.html">
                 <div class="item">
+              
                     <div class="item-2">
                         <img src="icones/perfil.svg" />
                         <div>
@@ -182,7 +184,7 @@
                     </div>
                     <img class="lapis" src="icones/Pen Squared.png" alt="My Happy SVG" />
                 </div>
-
+            </a>
                 <div class="item">
                     <div class="item-2">
                     <img src="icones/quadras/localicacao.svg" />
@@ -194,6 +196,7 @@
                     <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
                 </div>
 
+                <a href="../../Pedro Telas/Tela da Home/index.html#about" >
                 <div class="item">
                     <div class="item-2">
                         <img src="icones/quadras/i.svg" />
@@ -202,19 +205,29 @@
                             <h5>Conheça mais do AtletaLink</h5>
                         </div>
                     </div>
-                    <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
+                    <a href="../tela 2/index.html"> <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" /></a>
+                  
                 </div>
-
+            </a>
+                <a href="../../Pedro Telas/Tela de Cadastro e Login/index.html" >
                 <div class="item">
                     <div class="item-2">
-                    <img src="icones/quadras/desconectar.svg" />
+                       <img src="icones/quadras/desconectar.svg" />
                     <div>
+
                     <h4>Desconectar da conta</h4>
                     <h5>Voltar à página inicial</h5>
                 </div>
+
                 </div>
                 <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
+           
+           
+          
             </div>
+        </a>
+
+
         </div>
     </div>
 </div>
@@ -231,6 +244,40 @@
 </footer>
 
 <script>
+     function initPage() {
+        // Informa o nome do usuário logado
+        console.log(sessionStorage.getItem("usuarioCorrente"))
+        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
+        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
+        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).telefone ;
+        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).email ;
+        hide()
+    }
+
+    function Formulario() {
+        var cliente = JSON.stringify({
+		nome  : document.getElementById('name').value,
+		telefone : document.getElementById("telefone").value,
+		sexo : document.getElementById("genero").value,
+		email : document.getElementById("email").value,
+        senha : document.getElementById("senha").value === "" ?JSON.parse(sessionStorage.getItem("usuarioCorrente")).senha : document.getElementById("senha").value,
+	});
+    console.log(cliente)
+    sessionStorage.setItem ('usuarioCorrente', cliente);
+
+    }
+
+    function mudarSenha() {
+        document.getElementById("campo-senha").style.display = "flex";
+}
+
+    // Associa ao evento de carga da página a função para verificar se o usuário está logado
+    window.addEventListener('load', initPage);
+
+
+
+
+
 
 function hide() {
         $( ".modal" ).hide();
@@ -239,15 +286,6 @@ function hide() {
     function show() {
         $( ".modal" ).show();
 }
-function initPage() {
-    hide()
-
-        
-    }
-
-
-
-
     var map = L.map("map").setView([-19.9205153, -43.9402708], 15);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
