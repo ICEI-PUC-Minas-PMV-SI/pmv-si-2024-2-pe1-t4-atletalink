@@ -79,7 +79,7 @@
 
 
                 </div>
-                <div class="box">
+                <!-- <div class="box">
                
                     <div>
                         <img class="tamanho-imagem" src="icones/quadras/quadra-1.png" alt="My Happy SVG" />
@@ -151,7 +151,7 @@
 
 
 
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -247,11 +247,12 @@
      function initPage() {
         // Informa o nome do usuário logado
         console.log(sessionStorage.getItem("usuarioCorrente"))
-        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
-        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
-        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).telefone ;
-        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).email ;
+        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.nome || "" ;
+        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.nome ;
+        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.telefone ;
+        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.email ;
         hide()
+
     }
 
     function Formulario() {
@@ -271,6 +272,40 @@
         document.getElementById("campo-senha").style.display = "flex";
 }
 
+function listCadastramento() {
+    const list = JSON.parse(localStorage.getItem("Cadastramento"))
+    list.forEach(element => {
+        console.log(element)
+        $(".dados-body").append(`<div class="box">
+               
+                    <div>
+                        <img class="tamanho-imagem" src="icones/quadras/quadra-generica.png" alt="My Happy SVG">
+                    </div>
+              
+                    <div>
+                        <div class="pai-2">
+                            <h5>${element.nomeQuadra}</h5>
+                            <h5>| ${element.numero}</h5>
+                        </div>
+                        <h6></h6>
+                        <div class="pai-2">
+                            <img src="icones/quadras/estrela.svg">
+                            <h6>4,5 (38 avaliações)</h6>
+                        </div>
+                        <button class="button-quadras">
+                            <img src="icones/quadras/estrela-branca.svg">
+                            <h6>Super Avaliado</h6>
+                        </button>
+                    </div>
+
+
+
+                </div>`);
+    });
+
+
+}
+listCadastramento()
     // Associa ao evento de carga da página a função para verificar se o usuário está logado
     window.addEventListener('load', initPage);
 
