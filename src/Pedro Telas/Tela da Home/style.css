@@ -648,3 +648,20 @@ header .navbar {
     gap: 20px;
   }
 }
+
+.success-message {
+  display: none;
+  background-color: #4CAF50; /* Verde para indicar sucesso */
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-message.show {
+  display: block;
+}
