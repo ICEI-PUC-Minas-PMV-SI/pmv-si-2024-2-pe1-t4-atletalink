@@ -48,3 +48,8 @@ Cenário 3: Você deseja alterar a senha.
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
 
     Comentários dos usuários: Achei que poderia ter uma mensagem notificando que a senha foi alterada com sucesso.
+
+
+    ## Avaliação dos Testes de Usabilidade
+
+As avaliações foram positivas porém, ainda falta um polimento como um usuario comentou no cenário 3.
