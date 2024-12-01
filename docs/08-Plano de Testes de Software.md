@@ -162,7 +162,6 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade 
 
-Cenário 1: Você pesquisa pela quadra desejada.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -175,32 +174,6 @@ Cenário 1: Você pesquisa pela quadra desejada.
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
-
-Cenário 2: Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 40 segundos                          |
-| 2       | SIM             | 5                    | 58 segundos                          |
-| **Média**     | 100%           | 5               | 49 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 15 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar e e simples.
-    
-
-Cenário 2: Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 25 segundos                          |
-| 2       | SIM             | 4                    | 35 segundos                          |
-| **Média**     | 100%           | 4.5               | 30 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
-
-
-    Comentários dos usuários: Achei muito intuitivo.
-    E um simples para realiza a edição das informações.
     
 ## Avaliação dos Testes de Usabilidade
 
