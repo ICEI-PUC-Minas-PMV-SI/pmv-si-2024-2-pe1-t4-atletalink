@@ -43,7 +43,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | CT01 - Solicitar agendamento de quadra 
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento".
+**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento".
 **Requisitos associados** | RF-006
 **Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
 **Dados de entrada** | Seleção do dia e do horário pretendido
