@@ -65,14 +65,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | "nomes de quadras"
 **Resultado obtido** | Sucesso
 
-**Caso de teste** | CT015 - Trocar pagina
- :--------------: | ------------
-**Procedimento**  | 1) selecione um dos ícones do rodapé
-**Requisitos associados** | RF-015
-**Resultado esperado** | Ser direcionado para a pagina correspodente ao ícone selecionado.                                                                                          
-**Dados de entrada** | "ícone selecionado"
-**Resultado obtido** | Sucesso
-
 **Caso de teste** | CT008/CT009 - Cadastramento de Quadra
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar o botão de cadastrar quadra <br> 2) incluir os dados da Quadra <br> 3) Salvar os dados da quadra
