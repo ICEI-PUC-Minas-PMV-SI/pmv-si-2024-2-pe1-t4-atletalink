@@ -108,7 +108,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |CT01 - Solicitar agendamento de quadra                                          |
 |---|---|
 |Requisito Associado | RF-006 - Permitir que o usuário esportista faça agendamento de horário|
-|Link do vídeo do teste realizado: | http://... | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1285897_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EaJhRgn-UghElY3ALcA86aIBPvdWE7wkMYESaPCpDqX2_Q&e=0kq2q9&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJmNzhmMGNiNy1kY2Y0LTQ0YjctYWU4OS1lNTVkMDRjZGFkMDQifX0%3D | 
 
 |*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Quadastra quadra, horário, editar e exluir dados da quadra  |
 |---|---|
