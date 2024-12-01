@@ -19,6 +19,9 @@ Cenário 1: Você pesquisa pela quadra desejada.
 | **Média**     | 80%           | 4                | 26.3 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
+    Comentários dos usuários: Achei o site muito bom e intuitivo. 
+    Não tive dificuldades e acho que ficou bem intuitivo.
+
 Cenário 2: Você deseja alterar seus dados.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -31,6 +34,9 @@ Cenário 2: Você deseja alterar seus dados.
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 42 segundos |
 
 
+    Comentários dos usuários: Achei o site muito intuitivo. 
+
+
 Cenário 3: Você deseja alterar a senha.
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -40,3 +46,5 @@ Cenário 3: Você deseja alterar a senha.
 |  |  |  |  |
 | **Média**     | 80%           | 4                | 36.6 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
+
+    Comentários dos usuários: Achei que poderia ter uma mensagem notificando que a senha foi alterada com sucesso.
