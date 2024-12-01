@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT00 - Criar sua conta** [exemplo]
+**Caso de Teste** | **CT00 - Criar sua conta**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Criar".
 **Requisitos associados** | RF-001 - RF-002
@@ -33,7 +33,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT00- Fazer login com sua conta** [exemplo]
+**Caso de Teste** | **CT00- Fazer login com sua conta**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Clique no botão "Entrar" <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão Entrar
 **Requisitos associados** | RF-003
