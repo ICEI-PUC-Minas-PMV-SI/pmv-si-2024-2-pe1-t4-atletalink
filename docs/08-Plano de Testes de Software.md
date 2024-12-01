@@ -154,56 +154,6 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja alterar seus dados cadrastrados. |
-| 2             | Você e um atleta e deseja alterar sua senha.  |
-| 3             | Você e um atleta e deseja encontrar quadras pelo aplicativo. |
-| 4             |  |
-
-Cenário 1:  Você é uma pessoa que deseja alterar seus dados cadrastrados.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 15 segundos                  |
-| 2       | SIM             | 4                    | 22 segundos                  |
-| 3       | SIM             | 4                    | 42 segundos                  |
-|  |  |  |  |
-| **Média**     | 80%           | 4                | 26.3 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
-
-    Comentários dos usuários: pessoa 1: Achei o site muito bom e intuitivo. 
-    Pessoa 2:Não tive dificuldades e acho que ficou bem intuitivo.
-
-Cenário 2:  Você e um atleta e deseja alterar sua senha.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 42 segundos                  |
-| 2       | SIM             | 4                    | 65 segundos                  |
-| 3       | SIM             | 5                    | 70 segundos                  |
-|  |  |  |  |
-| **Média**     | 95%           | 4                | 59 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 42 segundos |
-
-
-    Comentários dos usuários: Achei o site muito intuitivo. 
-
-
-Cenário 3: Você e um atleta e deseja encontrar quadras pelo aplicativo. 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 20 segundos                  |
-| 2       | SIM             | 4                    | 40 segundos                  |
-| 3       | SIM             | 4                    | 50 segundos                  |
-|  |  |  |  |
-| **Média**     | 80%           | 4                | 36.6 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
-
-      Comentários dos usuários: A busca funciona muito bem. 
-
-## Cenários de Teste de Usabilidade 
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
 | 1             | Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva a qual você agendou, deixe uma avaliação. |
 | 2             | Você é um grande praticante de esportes e ficou sabendo de um site onde você pode reservar quadras, crie uma conta e agende uma quadra.  |
 | 3             | Você agendou uma reserva, mas se deparou com um imprevisto de última hora e não poderá mais comparecer, acesse sua agenda e cancele a reserva. |
@@ -238,8 +188,8 @@ Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site
 | **Média**     | 100%           | 4                | 126,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 90 segundos |
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não identifiquei dificultdades para realizar a tarefa.
+    Comentários dos usuários: Plataforma excelente e muito inovadora. 
+    A plataforma possui uma boa cobertura de quadras.
 
 ## Registro de Testes de Usabilidade 
 
@@ -254,8 +204,8 @@ Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de últ
 | **Média**     | 100%           | 4                | 48,75 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 35 segundos |
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não identifiquei dificultdades para realizar a tarefa.
+    Comentários dos usuários: Processo simples e rápido, nota 10. 
+    Sem frescura e enrolação, direto ao ponto.
 
 ## Registro de Testes de Usabilidade 
 
@@ -270,8 +220,8 @@ Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo,
 | **Média**     | 100%           | 4                | 297,75 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 220 segundos |
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não identifiquei dificultdades para realizar a tarefa.
+    Comentários dos usuários: Excelente plataforma para divulgação de quadras esportivas. 
+    A home do gestor é muito intuitiva.
     
 ## Avaliação dos Testes de Usabilidade
 
