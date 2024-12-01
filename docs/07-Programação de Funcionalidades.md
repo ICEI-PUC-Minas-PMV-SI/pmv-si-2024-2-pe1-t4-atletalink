@@ -35,9 +35,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-006| Permitir que o usuário esportista faça agendamento de horário | Débora | calendário.html |
 |RF-007| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | Caio | tela 11 - index.html |
 |RF-008| Permitir que o usuário gestor de quadra disponibilize agenda de horários para reseva | João Vitor | tela20.html |
-|RF-009| Permitir que o usuário gestor de quadra divulgue informações sobre a quadra e divulgue eventos | João Vitor | tela20.html |
-|RF-010| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
-|RF-011| A plataforma gerará relatórios para o uso dos gestores de quadra | João Vitor | tela17.html |
+|RF-009| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
+|RF-010| A plataforma gerará relatórios para o uso dos gestores de quadra | João Vitor | tela17.html |
 
 
 
