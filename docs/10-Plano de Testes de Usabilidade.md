@@ -7,7 +7,7 @@ Planejamento de realização de testes com usuários definindo as operações qu
 > **Links Úteis**:
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
 
-## Cenários de Teste de Usabilidade [exemplo]
+## Cenários de Teste de Usabilidade
 
 
 Cenário 1: Você pesquisa pela quadra desejada.
