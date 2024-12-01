@@ -47,3 +47,52 @@ let swiper = new Swiper(".slider-wrapper", {
     },
   },
 });
+
+
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Evita o comportamento padrão do envio do formulário
+  
+  // Simulação de validação simples
+  const name = document.querySelector("input[placeholder='Seu nome']").value;
+  const email = document.querySelector("input[placeholder='Seu email']").value;
+  const message = document.querySelector("textarea[placeholder='Sua mensagem']").value;
+
+  if (name && validateEmail(email) && message) {
+    // Exibir a mensagem de sucesso
+    document.getElementById("successMessage").style.display = "block";
+    
+    // Limpar o formulário (opcional)
+    this.reset();
+
+    // Mantém o foco na área de contate-nos
+    document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
+  } else {
+    alert("Por favor, preencha todos os campos corretamente.");
+
+    // Focar na seção de contate-nos em caso de erro
+    document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+// Função de validação simples para o email
+function validateEmail(email) {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(String(email).toLowerCase());
+}
+
+
+document.querySelector(".contact-form").addEventListener("submit", function(event) {
+  event.preventDefault(); // Impede o envio do formulário
+  
+  // Mostrar a mensagem de sucesso
+  const successMessage = document.getElementById("success-message");
+  successMessage.classList.add("show");
+
+  // Esconder a mensagem após 3 segundos
+  setTimeout(function() {
+    successMessage.classList.remove("show");
+  }, 3000);
+
+  // Aqui você pode limpar os campos do formulário, se desejar
+  this.reset();
+});
