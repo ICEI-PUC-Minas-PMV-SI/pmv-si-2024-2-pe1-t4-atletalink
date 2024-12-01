@@ -39,6 +39,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-010| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
 |RF-011| Edição dos dados da quadra | João Vitor | tela17.html |
 |RF-012| Exclusão dos dados da quadra | João Vitor | tela17.html |
+|RF-013| Alterar senha | Gustavo | tela2.html |
+|RF-014| Pesquisar pelas quadras cadrastradas | Gustavo | tela7.html |
 
 
 
