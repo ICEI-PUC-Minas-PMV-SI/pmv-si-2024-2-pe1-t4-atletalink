@@ -9,10 +9,6 @@ Planejamento de realização de testes com usuários definindo as operações qu
 
 ## Cenários de Teste de Usabilidade [exemplo]
 
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja encontrar uma quadra. |
-
 
 Cenário 1: Você pesquisa pela quadra desejada.
 
