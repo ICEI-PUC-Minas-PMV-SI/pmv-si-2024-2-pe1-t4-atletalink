@@ -115,6 +115,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-006 - Permitir que o usuário esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: | http://... | 
 
+|*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Quadastra quadra, horário, editar e exluir dados da quadra  |
+|---|---|
+|Requisito Associado | RF-008/RF-009/RF-0111/RF-012 - Permitir que o usuário gestor de quadra quadastre a quadra, horário, editar e excluir dados da quadra esportista faça agendamento de horário|
+|Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1567866_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESP9MRBUGEJKiv0sSzmAmOYBc5Uo0WZ51wqVFxdUvJQRYA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tmC8T3)| 
 
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
