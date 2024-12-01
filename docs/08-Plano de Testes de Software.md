@@ -107,6 +107,16 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-008/RF-009/RF-0111/RF-012 - Permitir que o usuário gestor de quadra quadastre a quadra, horário, editar e excluir dados da quadra esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1567866_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESP9MRBUGEJKiv0sSzmAmOYBc5Uo0WZ51wqVFxdUvJQRYA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tmC8T3)| 
 
+|*Caso de Teste*                                 |CT02- Alterar dados  |
+|---|---|
+|Requisito Associado | RF-002 - Permitir que o usuário troque seus dados cadastrados|
+|Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)| 
+
+|*Caso de Teste*                                 |CT02- Pesquisar pelas quadras cadastrados  |
+|---|---|
+|Requisito Associado | RF-007 - Permitir que o usuário pesquisar pelas quadras cadastrados|
+|Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
