@@ -9,7 +9,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
-> - **Caso de Teste** | **CT00 - Criar conta parte 1** [exemplo]
+**Caso de Teste** | **CT00 - Criar conta parte 1** [exemplo]
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
 **Requisitos associados** | RF-001
