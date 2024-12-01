@@ -166,7 +166,7 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 35 segundos                  |
-| 2       | SIM             | 4                    | 60 segundos                  |
+| 2       | SIM             | 5                    | 60 segundos                  |
 | 3       | SIM             | 4                    | 42 segundos                  |
 | 4       | SIM             | 5                    | 38 segundos                  |
 | **Média**     | 100%           | 4                | 43,75 segundos                           |
@@ -181,8 +181,8 @@ Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 122 segundos                  |
-| 2       | SIM             | 4                    | 100 segundos                  |
+| 1       | SIM             | 4                    | 122 segundos                  |
+| 2       | SIM             | 5                    | 100 segundos                  |
 | 3       | SIM             | 4                    | 148 segundos                  |
 | 4       | SIM             | 5                    | 136 segundos                  |
 | **Média**     | 100%           | 4                | 126,5 segundos                           |
@@ -198,8 +198,8 @@ Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de últ
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 38 segundos                  |
-| 2       | SIM             | 4                    | 60 segundos                  |
-| 3       | SIM             | 4                    | 42 segundos                  |
+| 2       | SIM             | 5                    | 60 segundos                  |
+| 3       | SIM             | 5                    | 42 segundos                  |
 | 4       | SIM             | 5                    | 55 segundos                  |
 | **Média**     | 100%           | 4                | 48,75 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 35 segundos |
@@ -214,7 +214,7 @@ Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo,
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 280 segundos                  |
-| 2       | SIM             | 4                    | 244 segundos                  |
+| 2       | SIM             | 5                    | 244 segundos                  |
 | 3       | SIM             | 4                    | 355 segundos                  |
 | 4       | SIM             | 5                    | 312 segundos                  |
 | **Média**     | 100%           | 4                | 297,75 segundos                           |
