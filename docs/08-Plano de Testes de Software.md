@@ -72,15 +72,31 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Ser direcionado para a pagina correspodente ao ícone selecionado.                                                                                          
 **Dados de entrada** | "ícone selecionado"
 **Resultado obtido** | Sucesso
-## Registro dos Testes de Software
 
-**Caso de teste** | CT008 - Cadastramento de Quadra
+**Caso de teste** | CT008/CT009 - Cadastramento de Quadra
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar o botão de cadastrar quadra <br> 2) incluir os dados da Quadra <br> 3) Salvar os dados da quadra
-**Requisitos associados** | RF-008
+**Requisitos associados** | RF-008/RF-009
 **Resultado esperado** | Será realizado o cadastramento da quadra juntamente com o formato dos horários
 **Dados de entrada** | "Botão de cadartrar quadra"
 **Resultado obtido** | Sucesso
+
+**Caso de teste** | CT011 - Edição dos dados da Quadra
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar o botão de Edição <br> 2) Editar dados da Quadra <br> 3) Salvar alterações dos dados da quadra
+**Requisitos associados** | RF-011
+**Resultado esperado** | Será realizado a edição dos dados da quadra
+**Dados de entrada** | "ícone de lápis"
+**Resultado obtido** | Sucesso
+
+**Caso de teste** | CT012 - Exclusão dos dados da Quadra
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar o botão de Exclusão
+**Requisitos associados** | RF-012
+**Resultado esperado** | Será realizado a exclusão dos dados da quadra
+**Dados de entrada** | "ícone de lixeira"
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
