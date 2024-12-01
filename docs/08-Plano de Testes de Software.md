@@ -170,8 +170,8 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 | 2       | SIM             | 4                    | 60 segundos                  |
 | 3       | SIM             | 4                    | 42 segundos                  |
 | 4       | SIM             | 5                    | 38 segundos                  |
-| **Média**     | 100%           | 4                | 122,5 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+| **Média**     | 100%           | 4                | 43,75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 25 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
@@ -182,12 +182,12 @@ Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 120 segundos                  |
+| 1       | SIM             | 5                    | 122 segundos                  |
 | 2       | SIM             | 4                    | 100 segundos                  |
 | 3       | SIM             | 4                    | 148 segundos                  |
-| 4       | SIM             | 5                    | 138 segundos                  |
-| **Média**     | 100%           | 4                | 122,5 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+| 4       | SIM             | 5                    | 136 segundos                  |
+| **Média**     | 100%           | 4                | 126,5 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 90 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
@@ -202,8 +202,8 @@ Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de últ
 | 2       | SIM             | 4                    | 60 segundos                  |
 | 3       | SIM             | 4                    | 42 segundos                  |
 | 4       | SIM             | 5                    | 55 segundos                  |
-| **Média**     | 100%           | 4                | 122,5 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+| **Média**     | 100%           | 4                | 48,75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 35 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
@@ -218,8 +218,8 @@ Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo,
 | 2       | SIM             | 4                    | 244 segundos                  |
 | 3       | SIM             | 4                    | 355 segundos                  |
 | 4       | SIM             | 5                    | 312 segundos                  |
-| **Média**     | 100%           | 4                | 122,5 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+| **Média**     | 100%           | 4                | 297,75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 220 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
