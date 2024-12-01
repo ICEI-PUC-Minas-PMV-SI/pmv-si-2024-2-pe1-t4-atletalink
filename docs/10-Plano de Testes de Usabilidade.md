@@ -26,7 +26,7 @@ Cenário 1: Você pesquisa pela quadra desejada.
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
 
-Cenário 1: Você alterar a senha
+Cenário 1: Você deseja alterar a senha.
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 20 segundos                  |
