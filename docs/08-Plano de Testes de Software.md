@@ -176,9 +176,41 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
 
-    ## Registro de Testes de Usabilidade 
+## Registro de Testes de Usabilidade 
 
 Cenário 2: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 30 segundos                  |
+| 2       | SIM             | 4                    | 120 segundos                  |
+| 3       | SIM             | 4                    | 60 segundos                  |
+| 4       | SIM             | 5                    | 280 segundos                  |
+| **Média**     | 100%           | 4                | 122,5 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+
+    Comentários dos usuários: Achei o site muito bom e intuitivo. 
+    Não identifiquei dificultdades para realizar a tarefa.
+
+## Registro de Testes de Usabilidade 
+
+Cenário 3: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 30 segundos                  |
+| 2       | SIM             | 4                    | 120 segundos                  |
+| 3       | SIM             | 4                    | 60 segundos                  |
+| 4       | SIM             | 5                    | 280 segundos                  |
+| **Média**     | 100%           | 4                | 122,5 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+
+    Comentários dos usuários: Achei o site muito bom e intuitivo. 
+    Não identifiquei dificultdades para realizar a tarefa.
+
+## Registro de Testes de Usabilidade 
+
+Cenário 4: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
