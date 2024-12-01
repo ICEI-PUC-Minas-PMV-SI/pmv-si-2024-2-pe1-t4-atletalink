@@ -6,3 +6,21 @@ Planejamento de realização de testes com usuários definindo as operações qu
 
 > **Links Úteis**:
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+## Cenários de Teste de Usabilidade [exemplo]
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é uma pessoa que deseja encontrar uma quadra. |
+
+
+Cenário 1: Você pesquisa pela quadra desejada.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 15 segundos                  |
+| 2       | SIM             | 4                    | 22 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 26.3 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
