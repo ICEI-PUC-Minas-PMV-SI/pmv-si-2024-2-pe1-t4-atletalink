@@ -35,7 +35,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00- Fazer login com sua conta** [exemplo]
  :--------------: | ------------
-**Procedimento**  | 1) Clique no botão "Entrar" <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão Entrar
+**Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Clique no botão "Entrar" <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão Entrar
 **Requisitos associados** | RF-003
 **Resultado esperado** | Acessar o site
 **Dados de entrada** | Inserção de dados válidos no formulário de login
