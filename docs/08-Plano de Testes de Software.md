@@ -149,7 +149,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
-## Cenários de Teste de Usabilidade [exemplo]
+## Cenários de Teste de Usabilidade 
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
@@ -158,7 +158,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 3             | Você é um dono de quadra que deseja alterar os dados de sua quadra. |
 | 4             |  |
 
-## Registro de Testes de Usabilidade [exemplo]
+## Registro de Testes de Usabilidade 
 
 Cenário 1: Você pesquisa pela quadra desejada.
 
@@ -172,38 +172,34 @@ Cenário 1: Você pesquisa pela quadra desejada.
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Não identifiquei dificultdades para realizar a tarefa.
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
-## Registro de Testes de Usabilidade da Funcionalidade de agendamento pelo usuário esportista
-
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 2: Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | x segundos                  |
-| 2       | SIM             | 5                    | x  segundos                  |
-| 3       | SIM             | 5                    | x segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | x segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | x  segundos |
+| 1       | SIM             | 5                    | 40 segundos                          |
+| 2       | SIM             | 5                    | 58 segundos                          |
+| **Média**     | 100%           | 5               | 49 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15 segundos |
 
 
+    Comentários dos usuários: O site é fácil de acessar e e simples.
+    
+
+Cenário 2: Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 25 segundos                          |
+| 2       | SIM             | 4                    | 35 segundos                          |
+| **Média**     | 100%           | 4.5               | 30 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
+
+
+    Comentários dos usuários: Achei muito intuitivo.
+    E um simples para realiza a edição das informações.
+    
 ## Avaliação dos Testes de Usabilidade
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
