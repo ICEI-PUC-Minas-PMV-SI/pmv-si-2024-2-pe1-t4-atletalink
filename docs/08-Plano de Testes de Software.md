@@ -155,17 +155,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja alterar seus dados cadrastrados. |
-| 2             | Você e um atleta e deseja alterar sua senha.  |
-| 3             | Você e um atleta e deseja encontrar quadras pelo aplicativo. |
-| 4             |  |
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja encontrar uma quadra. |
-| 2             | Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.  |
-| 3             | Você é um dono de quadra que deseja alterar os dados de sua quadra. |
-| 4             |  |
+| 1             | Você é ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva a qual você agendou, deixe uma avaliação . |
+| 2             | Você é um grande praticante de esportes e ficou sabendo de um site onde você pode reservar quadras, crie uma conta e agende uma quadra.  |
+| 3             | Você agendou uma reserva, mas se deparou com um imprevisto de última hora e não poderá mais comparecer, acesse sua agenda e cancele a reserva. |
+| 4             | Você é dono de um centro esportivo e tem interesse em anunciá-lo, crie uma conta e anuncie sua quadra |
 
 ## Registro de Testes de Usabilidade 
 
@@ -173,11 +166,11 @@ Cenário 1: Você pesquisa pela quadra desejada.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 15 segundos                  |
-| 2       | SIM             | 4                    | 22 segundos                  |
-| 3       | SIM             | 4                    | 42 segundos                  |
-| 4       | SIM             | 4                    | 42 segundos                  |
-| **Média**     | 100%           | 4                | 26.3 segundos                           |
+| 1       | SIM             | 5                    | 30 segundos                  |
+| 2       | SIM             | 4                    | 120 segundos                  |
+| 3       | SIM             | 4                    | 60 segundos                  |
+| 4       | SIM             | 5                    | 280 segundos                  |
+| **Média**     | 100%           | 4                | 122,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
