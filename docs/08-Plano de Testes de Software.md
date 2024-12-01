@@ -30,7 +30,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Criar".
 **Requisitos associados** | RF-001 - RF-002
 **Resultado esperado** | Usuário Cadastrado para acessar o site
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Dados de entrada** | Nome Completo, Telefone, Email, Data de Nascimento e Senha
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT00- Fazer login com sua conta**
@@ -38,7 +38,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Clique no botão "Entrar" <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão Entrar
 **Requisitos associados** | RF-003
 **Resultado esperado** | Acessar o site
-**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Dados de entrada** | Email e Senha
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | CT01 - Solicitar agendamento de quadra 
