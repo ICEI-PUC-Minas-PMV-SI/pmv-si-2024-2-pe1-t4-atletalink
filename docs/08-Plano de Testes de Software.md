@@ -74,6 +74,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado obtido** | Sucesso
 ## Registro dos Testes de Software
 
+**Caso de teste** | CT008 - Cadastramento de Quadra
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar o botão de cadastrar quadra <br> 2) incluir os dados da Quadra <br> 3) Salvar os dados da quadra
+**Requisitos associados** | RF-008
+**Resultado esperado** | Será realizado o cadastramento da quadra juntamente com o formato dos horários
+**Dados de entrada** | "Botão de cadartrar quadra"
+**Resultado obtido** | Sucesso
+## Registro dos Testes de Software
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
 |*Caso de Teste*                                 |*CT00 - Criar conta parte 1*                                         | [exemplo]
