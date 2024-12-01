@@ -155,6 +155,13 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
+| 1             | Você é uma pessoa que deseja alterar seus dados cadrastrados. |
+| 2             | Você e um atleta e deseja alterar sua senha.  |
+| 3             | Você e um atleta e deseja encontrar quadras pelo aplicativo. |
+| 4             |  |
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
 | 1             | Você é uma pessoa que deseja encontrar uma quadra. |
 | 2             | Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.  |
 | 3             | Você é um dono de quadra que deseja alterar os dados de sua quadra. |
