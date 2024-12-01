@@ -154,10 +154,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você é uma pessoa que deseja encontrar uma quadra. |
-| 2             | Você é uma pessoa que deseja encontrar uma quadra. |
-| 3             | Você é uma pessoa que deseja encontrar uma quadra. |
-| 4             | Você é uma pessoa que deseja encontrar uma quadra. |
+| 2             | Você é um dono de quadra que deseja realizar o cadastramento de sua quadra para ter mais reservas.  |
+| 3             | Você é um dono de quadra que deseja alterar os dados de sua quadra. |
+| 4             |  |
 
+## Registro de Testes de Usabilidade [exemplo]
 
 Cenário 1: Você pesquisa pela quadra desejada.
 
@@ -167,34 +168,11 @@ Cenário 1: Você pesquisa pela quadra desejada.
 | 2       | SIM             | 4                    | 22 segundos                  |
 | 3       | SIM             | 4                    | 42 segundos                  |
 | 4       | SIM             | 4                    | 42 segundos                  |
-|  |  |  |  |
-| **Média**     | 80%           | 4                | 26.3 segundos                           |
+| **Média**     | 100%           | 4                | 26.3 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
-
-## Cenários de Teste de Usabilidade da funcionalidade de Agendameto pelo usuário esportista
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja agendar uma partida de futebol em Belo Horizonte. Encontre no site uma quadra disponível para a modalidade esportiva.  
-
-
-## Registro de Testes de Usabilidade [exemplo]
-
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não tive dificuldades e acho que ficou bem intuitivo.
-
 
 Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
 
