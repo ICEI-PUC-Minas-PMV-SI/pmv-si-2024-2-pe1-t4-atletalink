@@ -150,6 +150,55 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
+## Cenários de Teste de Usabilidade 
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é uma pessoa que deseja alterar seus dados cadrastrados. |
+| 2             | Você e um atleta e deseja alterar sua senha.  |
+| 3             | Você e um atleta e deseja encontrar quadras pelo aplicativo. |
+| 4             |  |
+
+Cenário 1:  Você é uma pessoa que deseja alterar seus dados cadrastrados.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 15 segundos                  |
+| 2       | SIM             | 4                    | 22 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 26.3 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+
+    Comentários dos usuários: pessoa 1: Achei o site muito bom e intuitivo. 
+    Pessoa 2:Não tive dificuldades e acho que ficou bem intuitivo.
+
+Cenário 2:  Você e um atleta e deseja alterar sua senha.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 42 segundos                  |
+| 2       | SIM             | 4                    | 65 segundos                  |
+| 3       | SIM             | 5                    | 70 segundos                  |
+|  |  |  |  |
+| **Média**     | 95%           | 4                | 59 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 42 segundos |
+
+
+    Comentários dos usuários: Achei o site muito intuitivo. 
+
+
+Cenário 3: Você e um atleta e deseja encontrar quadras pelo aplicativo. 
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 20 segundos                  |
+| 2       | SIM             | 4                    | 40 segundos                  |
+| 3       | SIM             | 4                    | 50 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 36.6 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
+
+      Comentários dos usuários: A busca funciona muito bem. 
 
 ## Cenários de Teste de Usabilidade 
 
