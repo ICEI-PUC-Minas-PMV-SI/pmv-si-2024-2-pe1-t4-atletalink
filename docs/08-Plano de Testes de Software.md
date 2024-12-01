@@ -49,7 +49,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Seleção do dia e do horário pretendido
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | CT02 - alterar senha
+**Caso de Teste** | CT02 - Alterar senha
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.configurações.com.br <br> 2) selecione a opcão alterar senha<br> 3) digite a nova senha <br> 4)selecione "salvar dados" <br>
 **Requisitos associados** | RF-02
@@ -57,14 +57,21 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | "nova senha"
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | CT015 - pesquisar quadras
+**Caso de Teste** | CT015 - Pesquisar quadras
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.home.com.br <br> 2) Selecione a barra de pesquisa <br> 3) pesquise pela quadra <br> 
 **Requisitos associados** | RF-015
 **Resultado esperado** | aparecer as quadras relacionadas a pesquisa                                                                                            
 **Dados de entrada** | "nomes de quadras"
 **Resultado obtido** | Sucesso
-             
+
+**Caso de teste** | CT015 - Trocar pagina
+ :--------------: | ------------
+**Procedimento**  | 1) selecione um dos ícones do rodapé
+**Requisitos associados** | RF-015
+**Resultado esperado** | Ser direcionado para a pagina correspodente ao ícone selecionado.                                                                                          
+**Dados de entrada** | "ícone selecionado"
+**Resultado obtido** | Sucesso
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -123,8 +130,19 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja encontrar uma quadra. |
+
+
+Cenário 1: Você pesquisa pela quadra desejada.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 15 segundos                  |
+| 2       | SIM             | 4                    | 22 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 26.3 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
 ## Cenários de Teste de Usabilidade da funcionalidade de Agendameto pelo usuário esportista
 
