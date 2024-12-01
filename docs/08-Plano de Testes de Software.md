@@ -100,15 +100,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 ## Registro dos Testes de Software
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT00 - Criar conta parte 1*                                         | [exemplo]
+|*Caso de Teste*                                 |CT00 - Cadastro e Login                                          |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
-
-|*Caso de Teste*                                 |*CT00 - Criar conta parte 2*                                        | [exemplo]
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-001 RF-002 RF-003 - Permitir que o Usuário e Gestor criem uma conta e façam login |
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1567924_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EbU9Lxz6vfJJtwPjh0eTMJMBTrDOiRwqkxUU8tvja8vEow&e=aU5gZj | 
 
 |*Caso de Teste*                                 |CT01 - Solicitar agendamento de quadra                                          |
 |---|---|
