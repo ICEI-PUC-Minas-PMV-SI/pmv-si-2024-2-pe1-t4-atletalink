@@ -8,18 +8,35 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 1: Você pesquisa pela quadra desejada.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 4                    | 15 segundos                  |
+| 2       | SIM             | 4                    | 22 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 80%           | 4                | 26.3 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+
+Cenário 2: Você deseja alterar seus dados.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 42 segundos                  |
+| 2       | SIM             | 4                    | 65 segundos                  |
+| 3       | SIM             | 5                    | 70 segundos                  |
+|  |  |  |  |
+| **Média**     | 95%           | 4                | 59 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 42 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+Cenário 3: Você deseja alterar a senha.
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 20 segundos                  |
+| 2       | SIM             | 4                    | 40 segundos                  |
+| 3       | SIM             | 4                    | 50 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 36.6 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
