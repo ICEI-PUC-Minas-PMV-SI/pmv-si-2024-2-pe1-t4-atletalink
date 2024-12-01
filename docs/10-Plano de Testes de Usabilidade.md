@@ -24,3 +24,14 @@ Cenário 1: Você pesquisa pela quadra desejada.
 |  |  |  |  |
 | **Média**     | 80%           | 4                | 26.3 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
+
+
+Cenário 1: Você alterar a senha
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 20 segundos                  |
+| 2       | SIM             | 4                    | 40 segundos                  |
+| 3       | SIM             | 4                    | 50 segundos                  |
+|  |  |  |  |
+| **Média**     | 80%           | 4                | 36.6 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
