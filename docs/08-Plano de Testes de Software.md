@@ -166,10 +166,10 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 30 segundos                  |
-| 2       | SIM             | 4                    | 120 segundos                  |
-| 3       | SIM             | 4                    | 60 segundos                  |
-| 4       | SIM             | 5                    | 280 segundos                  |
+| 1       | SIM             | 5                    | 35 segundos                  |
+| 2       | SIM             | 4                    | 60 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
+| 4       | SIM             | 5                    | 38 segundos                  |
 | **Média**     | 100%           | 4                | 122,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
@@ -178,14 +178,14 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 
 ## Registro de Testes de Usabilidade 
 
-Cenário 2: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
+Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site onde você pode reservar quadras, crie uma conta e agende uma quadra.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 30 segundos                  |
-| 2       | SIM             | 4                    | 120 segundos                  |
-| 3       | SIM             | 4                    | 60 segundos                  |
-| 4       | SIM             | 5                    | 280 segundos                  |
+| 1       | SIM             | 5                    | 120 segundos                  |
+| 2       | SIM             | 4                    | 100 segundos                  |
+| 3       | SIM             | 4                    | 148 segundos                  |
+| 4       | SIM             | 5                    | 138 segundos                  |
 | **Média**     | 100%           | 4                | 122,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
@@ -194,14 +194,14 @@ Cenário 2: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 
 ## Registro de Testes de Usabilidade 
 
-Cenário 3: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
+Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de última hora e não poderá mais comparecer, acesse sua agenda e cancele a reserva.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 30 segundos                  |
-| 2       | SIM             | 4                    | 120 segundos                  |
-| 3       | SIM             | 4                    | 60 segundos                  |
-| 4       | SIM             | 5                    | 280 segundos                  |
+| 1       | SIM             | 5                    | 38 segundos                  |
+| 2       | SIM             | 4                    | 60 segundos                  |
+| 3       | SIM             | 4                    | 42 segundos                  |
+| 4       | SIM             | 5                    | 55 segundos                  |
 | **Média**     | 100%           | 4                | 122,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
@@ -210,14 +210,14 @@ Cenário 3: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
 
 ## Registro de Testes de Usabilidade 
 
-Cenário 4: Você é um ávido comentador e gosta de dar suas opiniões, ao fim do horário da reserva da qual você agendou, deixe uma avaliação.
+Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo, crie uma conta e anuncie sua quadra. 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 30 segundos                  |
-| 2       | SIM             | 4                    | 120 segundos                  |
-| 3       | SIM             | 4                    | 60 segundos                  |
-| 4       | SIM             | 5                    | 280 segundos                  |
+| 1       | SIM             | 5                    | 280 segundos                  |
+| 2       | SIM             | 4                    | 244 segundos                  |
+| 3       | SIM             | 4                    | 355 segundos                  |
+| 4       | SIM             | 5                    | 312 segundos                  |
 | **Média**     | 100%           | 4                | 122,5 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 4 | 15 segundos |
 
