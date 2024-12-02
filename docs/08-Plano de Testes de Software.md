@@ -43,7 +43,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | CT01 - Solicitar agendamento de quadra 
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento".
+**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 4) Clique no botão "Solicitar agendamento".
 **Requisitos associados** | RF-006
 **Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
 **Dados de entrada** | Seleção do dia e do horário pretendido
@@ -91,7 +91,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de teste** | CT002 - Acompanhamento do agendamento
  :--------------: | ------------
-**Procedimento**  | 1) Selecionar o botão de Exclusão
+**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 4) Clique no botão "Solicitar agendamento <br> 5) Clique no botão "Avançar".
 **Requisitos associados** | RF-010
 **Resultado esperado** | Será realizado o agendamento da quadra
 **Dados de entrada** | Seleção da quadra e do horário pretendidos
@@ -125,7 +125,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-007 - Permitir que o usuário pesquisar pelas quadras cadastrados|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
-|*Caso de Teste*                                 |CT06- Acompanhar agendamento  |
+|*Caso de Teste*                                 |CT02- Acompanhar agendamento  |
 |---|---|
 |Requisito Associado | RF-010 - Permitir que o usuário gestor de quadra confirme as reservas|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1568535_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EazFAzacN51NtBeXIqC4yvQB-NNj2A4ffYzMgIpLaSET9Q&e=XiPWEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
@@ -215,7 +215,7 @@ Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de últ
     Comentários dos usuários: Processo simples e rápido, nota 10. 
     Sem frescura e enrolação, direto ao ponto.
 
-Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo, crie uma conta e cadastre sua quadra.
+Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo, criar uma conta e cadastrar sua quadra.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
