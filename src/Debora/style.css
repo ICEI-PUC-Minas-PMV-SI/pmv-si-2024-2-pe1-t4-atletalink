@@ -95,7 +95,7 @@ body {
     justify-content: center;
     border: none;
     border-radius: 50%;
-    background: #fff;
+    background: #d1c7c7;
     cursor: pointer;
     width: 40px;
     height: 40px;
@@ -137,14 +137,26 @@ body {
     transition: 0.2s;
 }
 
-.date.active:hover {
-    background-color: #254870;
-    color: #fff;
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.date.inactive:hover {
-    color: #fff;
+.btn-primary {
+    background-color: #007bff;
+    color: white;
 }
+
+.btn-primary:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
 
 .estrutura-geral {
     float:left;
