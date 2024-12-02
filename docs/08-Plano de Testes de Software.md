@@ -207,12 +207,12 @@ Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo,
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 26 segundos                  |
-| 2       | SIM             | 4                    | 55 segundos                  |
-| 3       | SIM             | 4                    | 58 segundos                  |
-| 4       | SIM             | 5                    | 45 segundos                  |
-| **Média**     | 100%           | 4                | 46 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
+| 1       | SIM             | 5                    | 280 segundos                  |
+| 2       | SIM             | 4                    | 244 segundos                  |
+| 3       | SIM             | 4                    | 355 segundos                  |
+| 4       | SIM             | 5                    | 312 segundos                  |
+| **Média**     | 100%           | 4                | 297,75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 235 segundos |
 
     Comentários dos usuários: Excelente plataforma para divulgação de quadras esportivas. 
     A home do gestor é muito intuitiva.
