@@ -70,7 +70,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Selecionar o botão de cadastrar quadra <br> 2) incluir os dados da Quadra <br> 3) Salvar os dados da quadra
 **Requisitos associados** | RF-008/RF-009
 **Resultado esperado** | Será realizado o cadastramento da quadra juntamente com o formato dos horários
-**Dados de entrada** | "Botão de cadartrar quadra"
+**Dados de entrada** | "Botão de cadastrar quadra"
 **Resultado obtido** | Sucesso
 
 **Caso de teste** | CT011 - Edição dos dados da Quadra
@@ -89,6 +89,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | "ícone de lixeira"
 **Resultado obtido** | Sucesso
 
+**Caso de teste** | CT002 - Acompanhamento do agendamento
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar o botão de Exclusão
+**Requisitos associados** | RF-010
+**Resultado esperado** | Será realizado o agendamento da quadra
+**Dados de entrada** | Seleção da quadra e do horário pretendidos
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
@@ -102,9 +110,9 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-006 - Permitir que o usuário esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1285897_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EaJhRgn-UghElY3ALcA86aIBPvdWE7wkMYESaPCpDqX2_Q&e=0kq2q9&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJmNzhmMGNiNy1kY2Y0LTQ0YjctYWU4OS1lNTVkMDRjZGFkMDQifX0%3D | 
 
-|*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Quadastra quadra, horário, editar e exluir dados da quadra  |
+|*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Cadastra quadra, horário, editar e excluir dados da quadra  |
 |---|---|
-|Requisito Associado | RF-008/RF-009/RF-011/RF-012 - Permitir que o usuário gestor de quadra quadastre a quadra, horário, editar e excluir dados da quadra esportista faça agendamento de horário|
+|Requisito Associado | RF-008/RF-009/RF-011/RF-012 - Permitir que o usuário gestor de quadra cadastre a quadra, horário, editar e excluir dados da quadra esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1567866_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESP9MRBUGEJKiv0sSzmAmOYBc5Uo0WZ51wqVFxdUvJQRYA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tmC8T3)| 
 
 |*Caso de Teste*                                 |CT02- Alterar dados  |
