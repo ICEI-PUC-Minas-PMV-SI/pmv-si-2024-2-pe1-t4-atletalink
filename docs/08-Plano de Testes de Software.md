@@ -117,7 +117,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-007 - Permitir que o usuário pesquisar pelas quadras cadastrados|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
-|*Caso de Teste*                                 |CT06- Pesquisar pelas quadras cadastrados  |
+|*Caso de Teste*                                 |CT06- Acompanhar agendamento  |
 |---|---|
 |Requisito Associado | RF-010 - Permitir que o usuário gestor de quadra confirme as reservas|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1568535_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EazFAzacN51NtBeXIqC4yvQB-NNj2A4ffYzMgIpLaSET9Q&e=XiPWEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
