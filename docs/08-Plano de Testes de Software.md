@@ -175,8 +175,6 @@ Cenário 1: Você é um ávido comentador e gosta de dar suas opiniões, ao fim 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não identifiquei dificultdades para realizar a tarefa.
 
-## Registro de Testes de Usabilidade 
-
 Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site onde você pode reservar quadras, crie uma conta e agende uma quadra.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -190,8 +188,6 @@ Cenário 2: Você é um grande praticante de esportes e ficou sabendo de um site
 
     Comentários dos usuários: Plataforma excelente e muito inovadora. 
     A plataforma possui uma boa cobertura de quadras.
-
-## Registro de Testes de Usabilidade 
 
 Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de última hora e não poderá mais comparecer, acesse sua agenda e cancele a reserva.
 
@@ -207,30 +203,27 @@ Cenário 3:  Você agendou uma reserva, mas se deparou com um imprevisto de últ
     Comentários dos usuários: Processo simples e rápido, nota 10. 
     Sem frescura e enrolação, direto ao ponto.
 
-## Registro de Testes de Usabilidade 
-
-Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo, crie uma conta e anuncie sua quadra. 
+Cenário 4: Você é dono de um centro esportivo e tem interesse em anunciá-lo, crie uma conta e cadastre sua quadra.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 280 segundos                  |
-| 2       | SIM             | 5                    | 244 segundos                  |
-| 3       | SIM             | 4                    | 355 segundos                  |
-| 4       | SIM             | 5                    | 312 segundos                  |
-| **Média**     | 100%           | 4                | 297,75 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 220 segundos |
+| 1       | SIM             | 5                    | 26 segundos                  |
+| 2       | SIM             | 4                    | 55 segundos                  |
+| 3       | SIM             | 4                    | 58 segundos                  |
+| 4       | SIM             | 5                    | 45 segundos                  |
+| **Média**     | 100%           | 4                | 46 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 20 segundos |
 
     Comentários dos usuários: Excelente plataforma para divulgação de quadras esportivas. 
     A home do gestor é muito intuitiva.
     
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Com base nos resultados obtidos, foi possível constatar que a aplicação web apresentou um alto índice de sucesso na interação dos usuários, com todos os cenários propostos sendo concluídos com êxito.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Além disso, a satisfação subjetiva dos usuários durante a execução dos cenários foi positiva, conforme indicado pelas médias das avaliações, que se mantiveram em torno de 4, considerado um bom desempenho.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+No entanto, observamos uma discrepância significativa no tempo médio de conclusão das tarefas entre os usuários e o especialista/desenvolvedor em todos os cenários. Essa diferença, embora parcialmente esperada devido ao conhecimento prévio do desenvolvedor sobre a interface, organização das páginas e posicionamento dos elementos.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
+Diante dessa diferença, identificamos oportunidades claras para melhorar a usabilidade em determinadas áreas da aplicação, visando tornar a experiência mais intuitiva e eficiente para os usuários.
 
