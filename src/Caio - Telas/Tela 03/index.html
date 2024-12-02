@@ -9,20 +9,121 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Projeto PUC</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .img-container {
+            text-align: center;
+            display: block;
+            margin-top: 15px;
+        }
+
+        .avaliacao-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 0px; 
+        }
+
+        .rating input[type="radio"] {
+            display: none;
+        }
+
+        .rating label {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+        }
+
+        .rating input[type="radio"]:checked ~ label {
+            color: gold;
+        }
+
+        .avaliacao {
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        footer a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+        }
+
+        footer img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .avaliacao-container {
+                gap: 10px;
+                margin-top: 20px;
+            }
+
+            .rating label {
+                font-size: 24px;
+            }
+
+            .avaliacao textarea {
+                width: 90%;
+            }
+
+            .navbar-right {
+                display: none;
+            }
+
+            footer {
+                padding: 15px;
+            }
+
+            footer img {
+                width: 60px;
+            }
+
+            footer a {
+                font-size: 12px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .avaliacao-container {
+                gap: 30px;
+            }
+
+            .rating label {
+                font-size: 35px;
+            }
+
+            .avaliacao textarea {
+                width: 60%;
+            }
+        }
+
+    </style>
 </head>
 <body>
+
 <header class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-        
             <a class="navbar-brand" href="#">
                 <img id="logo" src="img/logo.png" alt="logomarca AtletaLink">
             </a>
         </div>
-      
         <div class="navbar-right">
             <p class="navbar-text">Olá, João Silva</p>
-           
             <ul class="nav navbar-nav">
                 <li><a href="#"><img src="img/home.svg" alt="Home" style="height: 40px;"></a></li>
                 <li><a href="#"><img src="img/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
@@ -32,54 +133,51 @@
         </div>
     </div>
 </header>
+
 <div class="main">
-  <div class="dados">
-  <div class="container"> </div>
-  <nav>
-    <a class="button" href="(LINK)" style="border:0px solid; padding: 10px 40px; text-decoration: none; background: #f5f5f5; color:black; font-size: 35px;">&larr;</a>
-    <p style="text-align: center;">Finalize seu agendamento</p>
-    <p style="padding: 10px 55px; text-decoration: none;"></p>
-</nav>
-  </div>
-  <div class="seta">
-    <div style='position:relative; top:0px; left:0px; text-align: left; margin: 10px;'>
-      <img src="img/borda.png" alt="Fundo azul"> 
-      <div style='position:absolute; top: 0px; left: 12px; text-align: left;'>
-      <img src="img/View.png" alt="View">
-      </div>
+    <div class="dados">
+        <div class="container"> </div>
+        <nav>
+            <a class="button" href="/Web03/index.html" style="border:0px solid; padding: 10px 40px; text-decoration: none; background: #f5f5f5; color:black; font-size: 35px;">&larr;</a>
+            <p style="text-align: center;">Avalie sua experiência!</p>
+            <p style="padding: 10px 55px; text-decoration: none;"></p>
+        </nav>
     </div>
- 
- <div style="text-align: left; bottom:120px; font-size: 25px; margin: 30px; color: black; margin-left: 0px;">Detalhes do pagamento
-  <h1>Alguma observação?</h1>
-<nav>
-<textarea placeholder="Ex: Preciso de colete, raquete, etc..." rows=5 cols=40 style="resize: none; text-align: left;" ></textarea>
-</div>
-<p style="padding: 10px 80px; text-decoration: none;"></p>
-<div class="linha-vertical" style="margin-right:60px;"></div>
-<style>
-  .img-container {
-    text-align: center;
-    display: block;
-    margin-top: 15px;
-  }
-</style>
-</head>
-<body>
-<span class="img-container">
-  <img src="img/amico.png" alt="Confirmação">
-</span>
-<p style="padding: 10px 100px; text-decoration: none;"></p>
-</nav>
-</div>
-<button style="border:0px solid; padding: 10px 40px; text-decoration: none; background:#2A406A; color:white; border-radius:20px; font-size: 15px; font-family:Roboto;" type="submit">Confirmar</button>
-  <div style='position:relative; top:0px; left:0px; text-align: left; margin: 10px;'>
-  <img src="img/borda.png" alt="Fundo azul">
-  <div style='position:absolute; top: 0px; left: 10px; text-align: left;'>
-  <a href="#"><img src="img/chatpng.png" alt="Chat"></a>
+
+    <div class="opn">
+        <img src="img/avaliary.jpg" alt="Avaliar" style="height: 25px;">
+        <h1 style="text-align: center;">Queremos saber como foi sua experiência em:</h1>
+    </div>
+
+    <span class="img-container">
+        <img src="img/arenap.png" alt="Arena ABA">
+    </span>
+
+    <div class="avaliacao-container">
+      <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <p style="font-size: 20px; color: black; margin: 50px 310px;">Avaliação:</p>
+  <div class="rating">
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+    <input type="radio" name="star" id="star2"><label for="star2"></label>
+    <input type="radio" name="star" id="star3"><label for="star3"></label>
+    <input type="radio" name="star" id="star4"><label for="star4"></label>
+    <input type="radio" name="star" id="star5"><label for="star5"></label>
   </div>
+       
+        <div class="avaliacao">
+            <label style="margin: 30px;">Deixe seu comentário:</label>
+            <textarea placeholder="Mensagem" rows=5 cols=45 style="resize: none;"></textarea>
+            <div class="btn">
+                <a href="/Web04/index.html" style="border:0px solid; padding: 10px 40px; text-decoration: none; background:#2A406A; color:white; border-radius:20px; font-size: 15px; font-family:Roboto;">Confirmar</a>
+            </div>
+        </div>
+    </div>
+
 </div>
-</div>
-  <footer>
+
+<footer>
     <img src="img/logo atleta branca.png" alt="logomarca AtletaLink" width="100px" height="100px">
     <a href="#">AtletaLink Technologies <br> Copyright 2024 <br> Todos os Direitos Reservados</a>
     <a href="#">Política de privacidade</a>
@@ -87,4 +185,6 @@
     <a href="#">Código de conduta</a>
     <a href="#">Política de Cookies</a>
 </footer>
+
 </body>
+</html>

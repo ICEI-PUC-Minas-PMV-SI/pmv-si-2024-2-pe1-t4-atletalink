@@ -46,42 +46,6 @@ nav{
   align-items: center;
   }
 
-  .thumbnail{
-    background-color: #F5F5F5;
-    margin: 30px 0px 0px;
-    padding: 0px;
-    h1{
-      margin: 0px;
-      font-family: 'Roboto';
-      font-size: 17px;
-      color:#2A406A;
-    }
-    h2{
-      margin: 0px;
-      font-family: 'Roboto';
-      font-size: 17px;
-      color:#04c300;
-    }
-    h3{
-      margin: 0px;
-      font-family: 'Roboto';
-      font-size: 17px;
-      color:#EB3223;
-    }
-    h4{
-      margin: 0px;
-      font-family: 'Roboto';
-      font-size: 17px;
-      color:#00D770;
-    }
-    h5{
-      margin: 0px;
-      font-family: 'Roboto';
-      font-size: 17px;
-      color:black;
-    }
-  }
-
 footer{
   background-color: #2a406a;
   color: #f1f2f5;
