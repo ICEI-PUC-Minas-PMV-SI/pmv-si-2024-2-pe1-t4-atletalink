@@ -62,7 +62,7 @@
                     <div>
                         <div class="form-group left-inner-addon">
                             <i class="glyphicon glyphicon-user"></i>
-                            <input type="text" class="form-control" value="" id="name" >
+                            <input type="text" class="form-control" value="" id="fullName" >
                         </div>
                     </div>
                     <div>
@@ -71,7 +71,7 @@
                                 <div class="form-group left-inner-addon">
                                     <i class="glyphicon glyphicon-phone"></i>
                                     <input type="text" class="form-control" data-mask="(00) 00000-0000"
-                                        value="" id="telefone">
+                                        value="" id="phone">
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="form-group left-inner-addon" style="display: none;" id="campo-senha">
                             <i class="glyphicon glyphicon glyphicon-wrench"></i>
-                            <input type="password" class="form-control" value="" id="senha">
+                            <input type="password" class="form-control" value="" id="password">
                         </div>
                         <div class="alterar">
                             <button type="text" class="button" value="alterar senha" onclick="mudarSenha()"> alterar senha </Button>
@@ -119,24 +119,38 @@
 
     function initPage() {
         // Informa o nome do usuário logado
-        console.log(sessionStorage.getItem("usuarioCorrente"))
-        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
-        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).nome ;
-        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).telefone ;
-        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente")).email ;
+const fullName = JSON.parse(localStorage.getItem("users"))[0].fullName;
+const phone = JSON.parse(localStorage.getItem("users"))[0].phone;
+const email = JSON.parse(localStorage.getItem("users"))[0].email;
+
+        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ fullName ;
+        document.getElementById('fullName').value =fullName
+        document.getElementById('phone').value =phone
+        document.getElementById('email').value =email
+        
         
     }
 
     function Formulario() {
-        var cliente = JSON.stringify({
-		nome  : document.getElementById('name').value,
-		telefone : document.getElementById("telefone").value,
+        var cliente = {
+		fullName  : document.getElementById('fullName').value,
+		phone : document.getElementById("phone").value,
 		sexo : document.getElementById("genero").value,
 		email : document.getElementById("email").value,
-        senha : document.getElementById("senha").value === "" ?JSON.parse(sessionStorage.getItem("usuarioCorrente")).senha : document.getElementById("senha").value,
-	});
+        password : document.getElementById("password").value === "" ?JSON.parse(localStorage.getItem("users")).password : document.getElementById("password").value,
+	};
     console.log(cliente)
-    sessionStorage.setItem ('usuarioCorrente', cliente);
+
+
+    const edit = JSON.parse(localStorage.getItem("users")).map((item)=>{
+        if(item.email === cliente.email){
+           return {...item,...cliente }
+        }
+        return item
+    })
+
+
+    localStorage.setItem ('users',JSON.stringify( edit));
     initPage() 
     alert("Dados Salvos");
     }
