@@ -5,30 +5,30 @@ document.querySelector(".nomeQuadra").innerHTML = `Locação ${
 
 const agendamentos = [
   {
-    nomeQuadra: "sdafa",
+    nomeQuadra: "Quadra Futsal",
     dia: "26/11/2024",
-    horario: "15:00",
+    horario: "16:00",
     nome: "João",
     status: "Confirmado",
   },
   {
-    nomeQuadra: "Quadra 123",
+    nomeQuadra: "Quadra Vôlei",
     dia: "27/11/2024",
-    horario: "15:00",
+    horario: "19:00",
     nome: "Fernando",
     status: "Pendente",
   },
   {
-    nomeQuadra: "Quadra 123",
+    nomeQuadra: "Quadra Areia",
     dia: "28/11/2024",
-    horario: "15:00",
+    horario: "16:00",
     nome: "Maria",
     status: "Confirmado",
   },
   {
-    nomeQuadra: "Quadra 123",
+    nomeQuadra: "Quadra tênis",
     dia: "29/11/2024",
-    horario: "15:00",
+    horario: "14:00",
     nome: "Lucia",
     status: "Pendente",
   },
