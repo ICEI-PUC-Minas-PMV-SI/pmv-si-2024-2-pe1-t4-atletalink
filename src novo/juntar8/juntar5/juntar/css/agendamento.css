@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #2A406A; 
+
+}
+.navbar {
+    background-color: #F5F5F5;
+    align-items: center;
+    
+}
+    
+.navbar-right .nav > li > a {
+    padding: 15px 20px;
+    color:#2A406A; 
+}
+    
+.navbar-text {
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold; 
+    color:#2A406A !important;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.caixasuperior {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    float: right;
+    width: 40%;
+    margin-top: 60px;
+    margin-right: 150px;
+   
+}
+
+.caixasuperior h2 {
+    font-family: Roboto;
+    text-align:left;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: x-large;
+    margin-left: 40px;
+
+}
+
+.calendar {
+    width: 600px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+
+    
+}
+
+.monthYear {
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgb(0,0,0,0.2);
+
+}
+
+.days {
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day {
+    text-align: center;
+    padding: 5px;
+    color: #626468;
+    font-weight: 500;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 5px;
+}
+
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.date.active:hover {
+    background-color: #254870;
+    color: #fff;
+}
+
+.date.inactive:hover {
+    color: #fff;
+}
+
+.estrutura-geral {
+    float:left;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 150px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 12px;
+
+  
+}
+.container{
+
+    color: #2A406A;
+    padding: 50px;
+    border-radius: 10px;
+    
+   
+}
+
+.container h2 {
+    font-family: Roboto;
+    color: black;
+    padding:18px;
+    margin-left: 40px;
+    text-align: left;
+    font-size:x-large;
+    
+}
+
+.local {
+    border: 1px solid #2A406A;
+    background-color: #d2d4d8;
+    margin-right: 60%;
+    font-size: large;
+    font-weight: bold;
+    color: #626468;
+    text-align: center;
+    margin-left: 40px;
+
+}
+    
+.infoquadra {
+    display:flex;
+    height: auto;
+    margin-left: 5%;
+
+ 
+ }
+    
+.logoquadra {
+    width: 220px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+    
+}
+    
+.nomequadra {
+    display:flex;
+    font-size:large;
+    height: auto;
+    color:black;
+
+}
+    
+.textoavaliacao {
+    display: inline;
+    font-size:large;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 50px;
+    color: black;
+
+}
+    
+button {
+    font-family: Share Tech;
+    font-size:x-large;
+    color: black;
+    border:none;
+    padding: 5px 15px;
+    align-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.btn-confirmar{
+
+margin-left: 45%;
+border: 2px solid #2A406A;
+border-radius:10px;
+margin-bottom: 15px;
+margin-top:15px;
+}
+
+.btn-confirmar:hover {
+    background-color: #2A406A;
+    color:#F5F5F5;
+
+}
+
+.btnopcoes {
+    border-top: 1px solid black; 
+    
+    margin-right: 40%; 
+}
+
+.btnopcoes button {
+    margin-top: 30px;;
+    margin-left: 10px;
+             
+}
+
+
+&.disabled {
+    color: $disabled-color;
+    background-color: $disabled-background;
+    // Remove CSS gradients if they're enabled
+    background-image: if($enable-gradients, none, null);
+    border-color: $disabled-border;
+}
+
+
+.modal-content {
+    vertical-align: middle;
+    font-weight: bolder;
+    background-color: #F5F5F5;
+    border: 2px solid #2a406a;
+
+}
+
+.modal-content img {
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.quadra1 {
+    margin-left: 10%;
+    margin-top: 40px;
+
+}
+
+.quadra2 {
+    margin-left: 10%;
+    margin-top: 40px;
+
+}
+
+.modal-content h4 {
+    text-align: center;
+    font-family: Share Tech;
+}
+
+.modal-content p {
+    padding-top: 2px;
+    margin-left: 20px;
+    
+}
+
+footer {
+    margin-bottom: 5px;
+
+    background-color: #2a406a;
+    color: #F5F5F5;
+    padding: 0 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .caixasuperior, .estrutura-geral {
+        width: 45%;
+        margin: 20px;
+    }

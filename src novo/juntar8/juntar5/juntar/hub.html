@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""
+      />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/hub.css">
+</head>
+
+<body>
+    <header class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="icones/logo.png" alt="logomarca AtletaLink" style="height: 40px;">
+                </a>
+            </div>
+          
+            <div class="navbar-right">
+                <p class="navbar-text" id="FullName">Olá,</p>
+               
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html"><img src="icones/home.svg" alt="Home" style="height: 40px;"></a></li>
+                    <li><a href="agendamento.html"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="icones/chat.svg" alt="Chat" style="height: 40px;"></a></li>
+                    <li onclick="show()"><a href="#"><img src="icones/config.svg" alt="Configurações" style="height: 40px;"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="dados">
+            <div class="header">
+                <div class="left">
+                    <h3>Centro Esportivo</h3>
+                </div>
+                <div class="rigth">
+
+                    <div class="options" >
+                        <img src="icones/lupa.svg" alt="My Happy SVG" />
+                    </div>
+                    <h4 id="nome-cidade1"></h4>
+                    <h4></h4>
+                    <img src="icones/seta.svg" alt="My Happy SVG" />
+                </div>
+
+
+
+            </div>
+            <div class="dados-body">
+                <div class="input">
+                    <div class="form-group left-inner-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input type="text" class="form-control search" placeholder="Pesquisar por Centro Esportivo">
+                    </div>
+
+
+                </div>
+                <div class="list">
+                <!-- <div class="box">
+               
+                    <div>
+                        <img class="tamanho-imagem" src="icones/quadras/quadra-1.png" alt="My Happy SVG" />
+                    </div>
+              
+                    <div>
+                        <div class="pai-2">
+                            <h5>Arena Túnel Av Cristiano Machado</h5>
+                            <h5>| 9 quadras</h5>
+                        </div>
+                        <h6>Quadras areia e futebol society</h6>
+                        <div class="pai-2">
+                            <img src="icones/quadras/estrela.svg" />
+                            <h6>4,5 (38 avaliações)</h6>
+                        </div>
+                        <button class="button-quadras">
+                            <img src="icones/quadras/estrela-branca.svg" />
+                            <h6>Super Avaliado</h6>
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="box">
+               
+                    <div>
+                        <img class="tamanho-imagem" src="icones/quadras/quadra-2.png" alt="My Happy SVG" />
+                    </div>
+              
+                    <div>
+                        <div class="pai-2">
+                            <h5>Arena Túnel Raja </h5>
+                            <h5>| 5 quadras</h5>
+                        </div>
+                        <h6>Arena poliesportiva de quadras de areia</h6>
+                        <div class="pai-2">
+                            <img src="icones/quadras/estrela.svg" />
+                            <h6>4,8 (30 avaliações)</h6>
+                        </div>
+                        <button class="button-quadras">
+                            <img src="icones/quadras/estrela-branca.svg" />
+                            <h6>Super Avaliado</h6>
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="box">
+               
+                    <div>
+                        <img class="tamanho-imagem" src="icones/quadras/quadra-3.png" alt="My Happy SVG" />
+                    </div>
+              
+                    <div>
+                        <div class="pai-2">
+                            <h5>Arena Aba </h5>
+                            <h5>| 1 quadras</h5>
+                        </div>
+                        <h6>Tudo que você precisa em um só lugar!</h6>
+                        <div class="pai-2">
+                            <img src="icones/quadras/estrela.svg" />
+                            <h6>4,8 (8 avaliações)</h6>
+                        </div>
+
+                        </button>
+                    </div>
+
+
+
+                </div> -->
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="dados-2">
+            <div class="dados-header"> </div>
+            <div class="dados-body-2">
+                <div id="map" style="width: 800px; height: 500px"></div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="modal" onclick="hide()">
+        <div class="quadrado">
+            <div>
+                <a href="pessoalData.html">
+                <div class="item">
+              
+                    <div class="item-2">
+                        <img src="icones/perfil.svg" />
+                        <div>
+                            <h4  id="FullName-menu"></h4>
+                            <h5>Editar meus dados pessoais</h5>
+                        </div>
+                    </div>
+                    <img class="lapis" src="icones/Pen Squared.png" alt="My Happy SVG" />
+                </div>
+            </a>
+                <div class="item">
+                    <div class="item-2">
+                    <img src="icones/quadras/localicacao.svg" />
+                    <div>
+                        <h4>Alterar minha localição</h4>
+                        <h5 id="nome-cidade2"></h5>
+                    </div>
+                    </div>
+                    <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
+                </div>
+
+                <a href="/home.html" >
+                <div class="item">
+                    <div class="item-2">
+                        <img src="icones/quadras/i.svg" />
+                        <div>
+                            <h4>Sobre</h4>
+                            <h5>Conheça mais do AtletaLink</h5>
+                        </div>
+                    </div>
+                    <a href="home.html"> <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" /></a>
+                  
+                </div>
+            </a>
+                <a href="loginRegister.html" >
+                <div class="item">
+                    <div class="item-2">
+                       <img src="icones/quadras/desconectar.svg" />
+                    <div>
+
+                    <h4>Desconectar da conta</h4>
+                    <h5>Voltar à página inicial</h5>
+                </div>
+
+                </div>
+                <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
+           
+           
+          
+            </div>
+        </a>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="dados-2">
+    <div class="dados-header"> </div>
+    <div class="dados-body-2">
+       <a href="gestorCadastroQuadra.html">
+        <img class="tamanho-imagem3" src="icones/quadras/anuncio.png" alt="My Happy SVG" />
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <img src="icones/logoProjeto2EX_1.svg" alt="" width="77px" height="130px">
+    <a href="#">AtletaLink Technologies <br> Copyright 2024 <br> Todos os Direitos Reservados</a>
+    <a href="#">Política de privacidade</a>
+    <a href="#">Termos e condições de uso</a>
+    <a href="#">Código de conduta</a>
+    <a href="#">Política de Cookies</a>
+</footer>
+
+<script>
+    function initPage() {
+       // Informa o nome do usuário logado
+       console.log(localStorage.getItem("users"))
+       const fullName = JSON.parse(localStorage.getItem("users"))[0].fullName;
+       document.getElementById('FullName').innerHTML ="Olá, "+fullName || "" ;
+       document.getElementById('FullName-menu').innerHTML ="Olá, "+fullName || "" ;
+       hide()
+
+   }
+
+
+    function mudarSenha() {
+        document.getElementById("campo-senha").style.display = "flex";
+}
+
+
+
+
+
+
+
+function listCadastramento() {
+    const list = JSON.parse(localStorage.getItem("Cadastramento"))
+    list?.forEach(element => {
+        console.log(element)
+        $(".dados-body").append(`<div class="box">
+               
+                    <div>
+                        <img class="tamanho-imagem" src="icones/quadras/quadra-generica.png" alt="My Happy SVG">
+                    </div>
+              
+                    <div>
+                        <div class="pai-2">
+                            <h5>${element.nomeQuadra}</h5>
+                            <h5>| ${element.numero}</h5>
+                        </div>
+                        <h6></h6>
+                        <div class="pai-1">
+                            <img src="icones/quadras/estrela.svg">
+                            <h6>4,5 (38 avaliações)</h6>
+                        </div>
+                        <button class="button-quadras">
+                            <img src="icones/quadras/estrela-branca.svg">
+                            <h6>Super Avaliado</h6>
+                        </button>
+                    </div>
+
+
+
+                </div>`);
+    });
+
+
+}
+
+listCadastramento()
+
+setTimeout(() => {
+    const filterElement = document.querySelector('.search')
+    console.log(filterElement)
+    const cards = document.querySelectorAll('.box')
+    console.log(cards.length)
+     filterElement.addEventListener('input', filterCards)
+
+     function filterCards(){
+        console.log(filterElement.value)
+        if(filterElement.value !== '') {
+            for (let card of cards) {
+                let title = card.querySelector('.pai-2 h5')
+                console.log("title",title)
+                title= title.textContent.toLowerCase()
+                let filterText = filterElement.value.toLowerCase()
+                console.log("filterText",filterText)
+                if(!title.includes(filterText)) {
+                    card.style.display ="none"
+                }
+                else{
+                    card.style.display = "flex"
+                }
+            } 
+         } else {
+            for (let card of cards){
+                card.style.display ="flex"
+            }                            
+         }
+     }
+}, 2000);
+
+
+
+
+ 
+    window.addEventListener('load', initPage);
+
+
+
+
+
+
+
+  // Função para obter o nome da cidade a partir da latitude e longitude
+  const obterNomeDaCidade = (latitude, longitude) => {
+      const url = `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`;
+
+      // Faz a requisição para a API Nominatim
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Obtém o nome da cidade
+          const nomeCidade = (data && data.address && data.address.city) ? data.address.city : 'Cidade não encontrada';
+          
+          // Atualiza o texto dos elementos <h4> com os dois IDs
+          document.getElementById('nome-cidade1').innerText = `Cidade: ${nomeCidade}`;
+          document.getElementById('nome-cidade2').innerText = `Cidade: ${nomeCidade}`;
+        })
+        .catch(error => {
+          console.error("Erro na requisição:", error);
+          document.getElementById('nome-cidade1').innerText = 'Erro ao buscar cidade';
+          document.getElementById('nome-cidade2').innerText = 'Erro ao buscar cidade';
+        });
+    };
+
+    // Função para obter a posição geográfica do usuário
+    const obterPosicaoDoUsuario = () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          
+          // Chama a função para obter o nome da cidade com as coordenadas do usuário
+          obterNomeDaCidade(latitude, longitude);
+        }, (error) => {
+          console.error("Erro ao obter a posição:", error);
+          document.getElementById('nome-cidade1').innerText = 'Erro ao obter localização';
+          document.getElementById('nome-cidade2').innerText = 'Erro ao obter localização';
+        });
+      } else {
+        console.log("Geolocalização não é suportada neste navegador.");
+        document.getElementById('nome-cidade1').innerText = 'Geolocalização não suportada';
+        document.getElementById('nome-cidade2').innerText = 'Geolocalização não suportada';
+      }
+    };
+
+    // Chama a função para obter a posição do usuário assim que a página for carregada
+    obterPosicaoDoUsuario();
+
+
+    
+function hide() {
+        $( ".modal" ).hide();
+}
+
+    function show() {
+        $( ".modal" ).show();
+}
+   
+   
+function atualizarMapa(latitude, longitude) {
+        // Cria o mapa com as coordenadas passadas
+        var map = L.map("map").setView([latitude, longitude], 15);
+
+        // Adiciona a camada de tiles do OpenStreetMap
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }).addTo(map);
+
+        // Adiciona um marcador no mapa
+        L.marker([latitude, longitude]).addTo(map)
+            .bindPopup("Você está aqui!")
+            .openPopup();
+
+
+
+
+            const quadras = JSON.parse(localStorage.getItem("Cadastramento"));
+
+
+            quadras.map((item)=>{
+                L.marker([item.latitude, item.longitude]).addTo(map)
+            .bindPopup(item.nomeQuadra)
+            .openPopup(nomeQuadra);
+    })
+    }
+
+    // Função para pegar a localização do usuário
+    function pegarLocalizacao() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                // Pega a latitude e longitude do usuário
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+
+
+                // Atualiza o mapa com as coordenadas do usuário
+                atualizarMapa(latitude, longitude);
+            }, function(error) {
+                alert("Erro ao obter localização: " + error.message);
+            });
+        } else {
+            alert("Geolocalização não suportada por este navegador.");
+        }
+    }
+
+    // Chama a função de geolocalização ao carregar a página
+    window.addEventListener('load', pegarLocalizacao);
+  </script>
+</html>

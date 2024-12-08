@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtletaLink - Gerenciar Quadra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/gestorGerenciarQuadra.css" />
+    <script src="js/gestorGerenciarQuadra.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="hub.html"><img src="icones/logoProjetoEX_1.png" alt="" /></a>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li>
+              <img src="icones/chatEX_1.svg" alt="" />
+            </li>
+            <li>
+              <img src="icones/configEX_1.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="gestorGerenciarQuadra.html"
+              ><img src="icones/homeEX_1.svg" alt="" /> Visão Geral</a
+            >
+          </li>
+          <hr />
+          <li>
+            <a href="gestorHorarios.html"
+              ><img src="icones/agendaEX_1.svg" alt="" /> Locações</a
+            >
+          </li>
+          <hr />
+          <li>
+            <a href="gestorCadastroQuadra.html"
+              ><img src="icones/quadraEX_1.svg" alt="" /> Quadras</a
+            >
+          </li>
+          <hr />
+        </ul>
+      </div>
+      <div class="gerenciar">
+        <div><img src="icones/homeEX_1.svg" alt="" /> Visão Geral</div>
+        <div>
+          <div class="title">
+            <section>
+              <img src="icones/setaEX_1.svg" alt="" />
+              <h6>Quadras Cadastradas:</h6>
+            </section>
+            <section>
+              <h6>Ações:</h6>
+              <div class="funcoes">
+                <p>Edição</p>
+                <p>Excluir</p>
+              </div>
+            </section>
+          </div>
+          <div class="name-quadras">
+            <!-- <div class="quadra">
+                        <h6>Quadra 1 - Futsal</h6>
+                        <div class="icons">
+                            <div class="text">
+                                <p>Relatório</p>
+                                <img src="relEX_1.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Edição</p>
+                                <img src="editEX_1.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Excluir</p>
+                                <img src="deletEX_1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quadra">
+                        <h6>Quadra 2 - Vôlei</h6>
+                        <div class="icons">
+                            <img src="relEX_1.svg" alt="">
+                            <img src="editEX_1.svg" alt="">
+                            <img src="deletEX_1.svg" alt="">
+                        </div>
+                    </div> -->
+          </div>
+        </div>
+        <div class="alert">
+          <div>
+            <img src="icones/alertEX_1.svg" width="35px" height="35px" alt="" />
+            <h6>Atenção:</h6>
+          </div>
+          <p>
+            Existem solicitações aguardando confirmação, lembre-se de verificar
+            em “Locações”/ “ Aguardando confirmação”
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="icones/logoRodapeEX_1.png" alt="" width="77px" height="100px" />
+      <a href="#"
+        >AtletaLink Technologies <br />
+        Copyright 2024 <br />
+        Todos os Direitos Reservados</a
+      >
+      <a href="#">Política de privacidade</a>
+      <a href="#">Termos e condições de uso</a>
+      <a href="#">Código de conduta</a>
+      <a href="#">Política de Cookies</a>
+    </footer>
+
+    <div
+      class="modal fade"
+      id="modalAtualizarQuadra"
+      tabindex="-1"
+      aria-labelledby="modalAtualizarQuadraLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAtualizarQuadraLabel">
+              <img
+                src="icones/checkEX_1.svg"
+                alt=""
+                width="30"
+                height="30"
+              />Atualização de Dados
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="mb-3">
+                    <label for="nomeQuadra" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Nome da
+                      quadra:</label
+                    >
+                    <input
+                      required
+                      required
+                      type="text"
+                      class="form-control"
+                      id="nomeQuadra"
+                      name="nomeQuadra"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="endereco" class="form-label"
+                      ><img
+                        src="icones/setaEX_1.svg"
+                        alt=""
+                      />Endereço/Logradouro:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="endereco"
+                      name="endereco"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="numero" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Número:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="numero"
+                      name="numero"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="complemento" class="form-label"
+                      ><img
+                        src="icones/setaEX_1.svg"
+                        alt=""
+                      />Complemento:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="complemento"
+                      name="complemento"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="bairro" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Bairro:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="bairro"
+                      name="bairro"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="mb-3">
+                    <label for="cidade" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Cidade:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="cidade"
+                      name="cidade"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="estado" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Estado/UF:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="estado"
+                      name="estado"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="cep" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />CEP:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="cep"
+                      name="cep"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefone" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Telefone para
+                      contato:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="telefone"
+                      name="telefone"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />E-mail:</label
+                    >
+                    <input
+                      required
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="mb-3">
+                    <label for="modalidade" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Modalidade
+                      Esportiva:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="modalidade"
+                      name="modalidade"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="tipoPiso" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Tipo de
+                      piso:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="tipoPiso"
+                      name="tipoPiso"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="quadraCoberta" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Quadra
+                      Coberta?</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="quadraCoberta"
+                      name="quadraCoberta"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="descricao" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Descrição:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="descricao"
+                      name="descricao"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="horarios" class="form-label"
+                      ><img src="icones/setaEX_1.svg" alt="" />Formato dos
+                      horários:</label
+                    >
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="horarios"
+                      name="horarios"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-success">
+                  Concluir Atualização
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Mascara de input required-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script>
+      $("#cep").mask("00000-000");
+      $("#telefone").mask("(00) 00000-0000");
+      $("#numero").mask("000000");
+    </script>
+  </body>
+</html>

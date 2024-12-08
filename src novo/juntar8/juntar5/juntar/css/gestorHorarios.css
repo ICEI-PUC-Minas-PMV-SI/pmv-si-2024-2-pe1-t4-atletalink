@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #2a406a;
+}
+
+:root {
+  --verde: #14fcd2;
+  --vermelho: #ec9696;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  background-color: #f5f5f5;
+}
+
+.nav {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav nav ul {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+main {
+  background-color: #2a406a;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 40px;
+  height: calc(100vh - 176px);
+}
+
+main div {
+  background-color: #f1f2f5;
+  border-radius: 20px;
+}
+
+.menu {
+  width: 33%;
+  padding-top: 20px;
+  & a {
+    text-decoration: none;
+    color: #2a406a;
+  }
+}
+
+.menu ul li img {
+  margin: 0 5% 0 18%;
+}
+
+.acompanhamento {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.acompanhamento .tipo {
+  display: flex;
+  align-items: center;
+}
+
+.acompanhamento .legenda {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.acompanhamento .legenda h6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acompanhamento .legenda h6 span {
+  display: block;
+  width: 40px;
+  height: 20px;
+}
+
+.acompanhamento .legenda h6 .verde {
+  background-color: var(--verde);
+}
+
+.acompanhamento .legenda h6 .vermelho {
+  background-color: var(--vermelho);
+}
+
+.verde {
+  background-color: var(--verde);
+}
+
+.vermelho {
+  background-color: var(--vermelho);
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+table,
+th,
+td {
+  border: 2px solid #c4c4c5;
+  text-align: center;
+}
+
+th {
+  background-color: #2a406a;
+  color: #f1f2f5;
+}
+
+footer {
+  background-color: #2a406a;
+  color: #f1f2f5;
+  padding: 0 50px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f2f5;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer img {
+  padding-bottom: 20px;
+}
