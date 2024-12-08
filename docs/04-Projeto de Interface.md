@@ -115,22 +115,22 @@ Página de edição de informações cadastrais
 
 Página para exibição das funcionalidades disponíveis para o gestor de quadra cadastrado
 
-![tela visao geral 2024-09-29 150322](https://github.com/user-attachments/assets/c7edc48f-148b-46d9-ae53-c36285d6fb79)
+![Quadras Cadastradas](https://github.com/user-attachments/assets/69aae9d3-b523-4f34-946a-41516fd9c1e1)
 
 #### 18. Quadras
 
 Página para exibição das quadras cadastradas pelo gestor e para edição de informações sobre as quadras 
 
-![tela do gestor/ quadras 2024-09-29 150228](https://github.com/user-attachments/assets/eb5fc789-b25c-4086-b575-0b176d27047f)
+![cadastro](https://github.com/user-attachments/assets/b8ab8e40-7fda-45cc-a900-c2488374f73a)
 
 #### 19. Informações cadastrais de nova quadra
 
 Página para exibição da informações necessárias para cadastramento de nova quadra pelo gestor
 
-![tela cadastrar quadra 2024-09-29 150410](https://github.com/user-attachments/assets/966e4be7-114b-49f3-8710-b552a2dfab5b)
+![ModalCadastro](https://github.com/user-attachments/assets/c50fb632-96b1-41ce-8d4a-b1efdab87d2c)
 
 #### 20. Agenda do gestor
 
 Página de exibição da agenda dos horários do gestor de quadras 
 
-![tela de locaçoes 2024-09-29 150349](https://github.com/user-attachments/assets/77f2f389-dd1e-4342-87fe-c300ae90c01e)
+![locaçoes](https://github.com/user-attachments/assets/952885bd-2d53-45b2-b79e-925d4b35a4a7)
