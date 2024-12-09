@@ -102,32 +102,32 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |CT00 - Cadastro e Login                                          |
 |---|---|
-|Requisito Associado | RF-001 RF-002 RF-003 - Permitir que o Usuário e Gestor criem uma conta e façam login |
+|Requisito Associado | RF-001 - Permitir que o Usuário e Gestor criem uma conta e façam login |
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1567924_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EbU9Lxz6vfJJtwPjh0eTMJMBTrDOiRwqkxUU8tvja8vEow&e=aU5gZj | 
 
 |*Caso de Teste*                                 |CT01 - Solicitar agendamento de quadra                                          |
 |---|---|
-|Requisito Associado | RF-006 - Permitir que o usuário esportista faça agendamento de horário|
+|Requisito Associado | RF-005 - Permitir que o usuário esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1285897_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EaJhRgn-UghElY3ALcA86aIBPvdWE7wkMYESaPCpDqX2_Q&e=0kq2q9&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJmNzhmMGNiNy1kY2Y0LTQ0YjctYWU4OS1lNTVkMDRjZGFkMDQifX0%3D | 
 
-|*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Cadastra quadra, horário, editar e excluir dados da quadra  |
+|*Caso de Teste*                                 |CT008/CT009/CT0111/CT012- Cadastra quadra, editar e excluir dados da quadra  |
 |---|---|
-|Requisito Associado | RF-008/RF-009/RF-011/RF-012 - Permitir que o usuário gestor de quadra cadastre a quadra, horário, editar e excluir dados da quadra esportista faça agendamento de horário|
+|Requisito Associado | RF-007/RF-010/RF-011 - Permitir que o usuário gestor de quadra cadastre a quadra ,editar e excluir dados da quadra esportista faça agendamento de horário|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1567866_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESP9MRBUGEJKiv0sSzmAmOYBc5Uo0WZ51wqVFxdUvJQRYA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tmC8T3)| 
 
 |*Caso de Teste*                                 |CT02- Alterar dados  |
 |---|---|
-|Requisito Associado | RF-002 - Permitir que o usuário troque seus dados cadastrados|
+|Requisito Associado | RF-012 - Permitir que o usuário troque seus dados cadastrados|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)| 
 
 |*Caso de Teste*                                 |CT02- Pesquisar pelas quadras cadastrados  |
 |---|---|
-|Requisito Associado | RF-007 - Permitir que o usuário pesquisar pelas quadras cadastrados|
+|Requisito Associado | RF-013 - Permitir que o usuário pesquisar pelas quadras cadastrados|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1566590_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfwP3eR8H3VDteQjseX5dg8BrwNf-yQgFx1TPQh0Cxd2Lw&e=2ROrRf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
 |*Caso de Teste*                                 |CT02- Acompanhar agendamento  |
 |---|---|
-|Requisito Associado | RF-010 - Permitir que o usuário gestor de quadra confirme as reservas|
+|Requisito Associado | RF-012 - Permitir que o usuário gestor de quadra confirme as reservas|
 |Link do vídeo do teste realizado: |(https://sgapucminasbr-my.sharepoint.com/personal/1568535_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EazFAzacN51NtBeXIqC4yvQB-NNj2A4ffYzMgIpLaSET9Q&e=XiPWEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
