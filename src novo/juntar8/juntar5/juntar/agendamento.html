@@ -19,17 +19,17 @@
     <header class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="hub.html">
+                <a class="navbar-brand" href="#">
                     <img id="logo" src="icones/logo.png" alt="logomarca AtletaLink" style="height: 40px;">
                 </a>
             </div>
             <div class="navbar-right">
-                <p class="navbar-text"></p>
+                <p class="navbar-text">Olá, João Silva</p>
                 <ul class="nav navbar-nav">
-                    <li><a href="hub.html"><img src="icones/home.svg" alt="Página Inicial" style="height: 40px;"></a></li>
-                    <li><a href="pessoalAgenda.html"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="icones/home.svg" alt="Página Inicial" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="icones/agenda.svg" alt="Agenda" style="height: 40px;"></a></li>
                     <li><a href="#"><img src="icones/chat.svg" alt="Chat" style="height: 40px;"></a></li>
-                    <li><a href="pessoalData.html"><img src="icones/config.svg" alt="Configurações" style="height: 40px;"></a></li>
+                    <li><a href="#"><img src="icones/config.svg" alt="Configurações" style="height: 40px;"></a></li>
                 </ul>
             </div>
         </div>
@@ -41,16 +41,16 @@
         <div id="box1" class="container">
             <img src="icones/arrow-left.svg"><br>
             <h2><img src="icones/Location.svg"> Localidade selecionada:</h2>
-            <p class="local"> Contagem/MG</p>
+            <p class="local"> Belo Horizonte/MG</p>
             <h2 class="titulocontainer"><img src="icones/quadra.svg"> Centro Esportivo Selecionado:</h2>
             <div class="infoquadra"> 
                 <div class="textoquadra"> 
                     <img class="logoquadra" src="icones/image.svg" alt="logo da quadra">
                 </div>
-                <h3 class="nomequadra"> Arena UV </h3>
+                <h3 class="nomequadra"> Arena Aba </h3>
                 <div class="textoavaliacao">
-                    <p><img src="icones/Star.svg" alt="ícone de avaliação"> 4,5 (38 avaliações)</p> 
-                    <p> R. Pitágoras, 100 , Cidade Nova,<br> Contagem/MG, CEP 32220-140</p>
+                    <p><img src="icones/Star.svg" alt="ícone de avaliação"> 4,8 (8 avaliações)</p> 
+                    <p> Av. Cristiano Machado, 123 , Cidade Nova,<br> Belo Horizonte/MG, CEP 30333-333</p>
                 </div> 
             </div>
            <div class="btnopcoes">
@@ -86,17 +86,20 @@
                 <div class="day">Sab</div>
                 <div class="day">Dom</div>
             </div>
-            <div class="dates" id="dates"></div>
+            <div class="dates" id="dates">
+                <!-- As datas serão inseridas dinamicamente via JS -->
+            </div>
         </div>
           <!-- Botão para abrir o modal de horários -->
-        <button class="btn-confirmar" data-toggle="modal" data-target=".bd-example-modal-lg">Confirmar</button>
+        <button class="btn-confirmar">Confirmar</button>
     </div>
 
         <!-- Modal de horários -->
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <h4> <img src="icones/Clock.svg">Selecione o horário da quadra desejada:</h4>
+                    <p class="modal-date"></p>
                     <div class="quadra1"> 
                         <img src="icones/imagemquadra.svg">
                         <p>Quadra de Areia</p>
@@ -110,8 +113,6 @@
                                 <button type="button" class="btn btn-secondary">18h-19h</button>
                                 <button type="button" class="btn btn-secondary">19h-20h</button>
                                 <button type="button" class="btn btn-secondary">20h-21h</button>
-
-                                
                             </div>
                         </div>
                     </div>
@@ -128,8 +129,7 @@
                                 <button type="button" class="btn btn-secondary" disabled>17h-18h</button>
                                 <button type="button" class="btn btn-secondary" disabled>18h-19h</button>
                                 <button type="button" class="btn btn-secondary">19h-20h</button>
-                                <button type="button" class="btn btn-secondary"disabled>20h-21h</button>
-                                
+                                <button type="button" class="btn btn-secondary" disabled>20h-21h</button>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     <!-- Rodapé do modal -->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <a href="statusAgendamento.html" type="button" class="btn btn-primary">Solicitar Agendamento</a>
+                        <button type="button" class="btn btn-primary">Solicitar Agendamento</button>
                     </div>
                 </div>
             </div>
@@ -155,6 +155,7 @@
     </footer>
 
     <!-- Scripts externos e do projeto -->
+    <script src="js/server.js"> </script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/agendamento.js"></script>
