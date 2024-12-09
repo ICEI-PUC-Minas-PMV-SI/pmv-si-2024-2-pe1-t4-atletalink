@@ -62,8 +62,8 @@
                     <div class="options" >
                         <img src="icones/lupa.svg" alt="My Happy SVG" />
                     </div>
-                    <h3>Belo Horizonte/MG</h3>
-                    <h4>Alterar</h4>
+                    <h4 id="nome-cidade1"></h4>
+                    <h4></h4>
                     <img src="icones/seta.svg" alt="My Happy SVG" />
                 </div>
 
@@ -192,7 +192,7 @@
                     <img src="icones/quadras/localicacao.svg" />
                     <div>
                         <h4>Alterar minha localição</h4>
-                        <h5>Belo horizonte, Minas Gerais</h5>
+                        <h5 id="nome-cidade2"></h5>
                     </div>
                     </div>
                     <img class="lapis" src="icones/quadras/seta.pro.lado.svg" alt="My Happy SVG" />
@@ -257,14 +257,14 @@
 <script>
      function initPage() {
         // Informa o nome do usuário logado
-        console.log(sessionStorage.getItem("usuarioCorrente"))
-        document.getElementById('nomeUsuario').innerHTML ="Olá, "+ JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.nome || "" ;
-        document.getElementById('nomeUsuario-menu').innerHTML =""+ JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.nome || "" ;
+        console.log(localStorage.getItem("users"))
+        document.getElementById('FullName').innerHTML ="Olá, "+ JSON.parse(localStorage.getItem("users"))?.fullName || "" ;
+        document.getElementById('FullName').innerHTML =""+ JSON.parse(localStorage.getItem("users"))?.FullName || "" ;
         
         
-        document.getElementById('name').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.nome ;
-        document.getElementById('telefone').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.telefone ;
-        document.getElementById('email').value =JSON.parse(sessionStorage.getItem("usuarioCorrente"))?.email ;
+        document.getElementById('FullName').value =JSON.parse(localStorage.getItem("users"))?.FullName ;
+        document.getElementById('phone').value =JSON.parse(localStorage.getItem("users"))?.phone ;
+        document.getElementById('email').value =JSON.parse(localStorage.getItem("users"))?.email ;
         hide()
 
     }
@@ -362,7 +362,7 @@ setTimeout(() => {
 
 
 
-    // Associa ao evento de carga da página a função para verificar se o usuário está logado
+ 
     window.addEventListener('load', initPage);
 
 
@@ -370,6 +370,55 @@ setTimeout(() => {
 
 
 
+
+  // Função para obter o nome da cidade a partir da latitude e longitude
+  const obterNomeDaCidade = (latitude, longitude) => {
+      const url = `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`;
+
+      // Faz a requisição para a API Nominatim
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Obtém o nome da cidade
+          const nomeCidade = (data && data.address && data.address.city) ? data.address.city : 'Cidade não encontrada';
+          
+          // Atualiza o texto dos elementos <h4> com os dois IDs
+          document.getElementById('nome-cidade1').innerText = `Cidade: ${nomeCidade}`;
+          document.getElementById('nome-cidade2').innerText = `Cidade: ${nomeCidade}`;
+        })
+        .catch(error => {
+          console.error("Erro na requisição:", error);
+          document.getElementById('nome-cidade1').innerText = 'Erro ao buscar cidade';
+          document.getElementById('nome-cidade2').innerText = 'Erro ao buscar cidade';
+        });
+    };
+
+    // Função para obter a posição geográfica do usuário
+    const obterPosicaoDoUsuario = () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          
+          // Chama a função para obter o nome da cidade com as coordenadas do usuário
+          obterNomeDaCidade(latitude, longitude);
+        }, (error) => {
+          console.error("Erro ao obter a posição:", error);
+          document.getElementById('nome-cidade1').innerText = 'Erro ao obter localização';
+          document.getElementById('nome-cidade2').innerText = 'Erro ao obter localização';
+        });
+      } else {
+        console.log("Geolocalização não é suportada neste navegador.");
+        document.getElementById('nome-cidade1').innerText = 'Geolocalização não suportada';
+        document.getElementById('nome-cidade2').innerText = 'Geolocalização não suportada';
+      }
+    };
+
+    // Chama a função para obter a posição do usuário assim que a página for carregada
+    obterPosicaoDoUsuario();
+
+
+    
 function hide() {
         $( ".modal" ).hide();
 }
@@ -377,14 +426,49 @@ function hide() {
     function show() {
         $( ".modal" ).show();
 }
-    var map = L.map("map").setView([-19.9205153, -43.9402708], 15);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution:
-        '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
-    initPage()
+   
+   
+function atualizarMapa(latitude, longitude) {
+        // Cria o mapa com as coordenadas passadas
+        var map = L.map("map").setView([latitude, longitude], 15);
 
+        // Adiciona a camada de tiles do OpenStreetMap
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }).addTo(map);
 
+        // Adiciona um marcador no mapa
+        L.marker([latitude, longitude]).addTo(map)
+            .bindPopup("Você está aqui!")
+            .openPopup();
+    }
+
+    // Função para pegar a localização do usuário
+    function pegarLocalizacao() {
+        try {
+            
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                // Pega a latitude e longitude do usuário
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+
+                // Atualiza o mapa com as coordenadas do usuário
+                atualizarMapa(latitude, longitude);
+            }, function(error) {
+                alert("Erro ao obter localização: " + error.message);
+            });
+        } else {
+            alert("Geolocalização não suportada por este navegador.");
+        }
+    } catch (error) {
+            
+        }
+    }
+
+    // Chama a função de geolocalização ao carregar a página
+    window.addEventListener('load', pegarLocalizacao);
   </script>
 </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Dinâmico com Leaflet</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Definindo a altura e largura do mapa */
+    #map {
+      height: 400px;
+      width: 800px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Exibe a latitude -->
+  <h4 id="latitude">Latitude: </h4>
+  
+  <!-- Exibe a longitude -->
+  <h4 id="longitude">Longitude: </h4>
+  
+  <!-- Aqui é o div onde o mapa será exibido, com o ID 'map' -->
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Função para atualizar o mapa com as coordenadas fornecidas
+    function atualizarMapa(latitude, longitude) {
+      var map = L.map("map").setView([latitude, longitude], 15);
+
+      // Adiciona a camada de tiles do OpenStreetMap
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(map);
+
+      // Adiciona um marcador no mapa
+      L.marker([latitude, longitude]).addTo(map)
+        .bindPopup("Você está aqui!")
+        .openPopup();
+    }
+
+    // Função para pegar a localização do usuário
+    function pegarLocalizacao() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+          // Pega a latitude e longitude do usuário
+          var latitude = position.coords.latitude;
+          var longitude = position.coords.longitude;
+
+          // Exibe as coordenadas na tela
+          document.getElementById('latitude').innerText = 'Latitude: ' + latitude;
+          document.getElementById('longitude').innerText = 'Longitude: ' + longitude;
+
+          // Atualiza o mapa com as coordenadas do usuário
+          atualizarMapa(latitude, longitude);
+        }, function(error) {
+          alert("Erro ao obter localização: " + error.message);
+        });
+      } else {
+        alert("Geolocalização não suportada por este navegador.");
+      }
+    }
+
+    // Chama a função de geolocalização ao carregar a página
+    pegarLocalizacao();
+  </script>
+
+</body>
+</html>

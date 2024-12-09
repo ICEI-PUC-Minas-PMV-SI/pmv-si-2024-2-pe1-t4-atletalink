@@ -27,19 +27,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| Permitir que o usuário esportista faça cadastro| Pedro | index.html |
-|RF-002| Permitir que o usuário gestor de quadra faça cadastro | Pedro | index.html |
-|RF-003| Permitir que os usuários (esportistas e donos de quadra) façam login | Pedro | index.html |
-|RF-005| Permitir a interação entre usuários através de Fórum |  |  |
-|RF-006| Permitir que o usuário esportista faça agendamento de horário | Débora | calendário.html |
-|RF-007| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | Caio | tela 11 - index.html |
-|RF-008| Permitir que o usuário gestor de quadra realize o cadastramento da quadra | João Vitor | tela18_19.html |
-|RF-009| Permitir que o usuário gestor de quadra disponibilize o formato dos horários para reseva | João Vitor | tela18_19.html |
-|RF-010| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
-|RF-011| Edição dos dados da quadra | João Vitor | tela17.html |
-|RF-012| Exclusão dos dados da quadra | João Vitor | tela17.html |
-|RF-013| Alterar senha | Gustavo | tela2.html |
-|RF-014| Pesquisar pelas quadras cadrastradas | Gustavo | tela7.html |
+|RF-001| Permitir que o usuário esportista faça cadastro| Pedro | loginRegister.html |
+|RF-002| Permitir que os usuários (esportistas e donos de quadra) façam login | Pedro | loginRegister.html |
+|RF-003| fornecer a localização do usuario | Gustavo | hub.html |
+|RF-004| Permitir a interação entre usuários através de Fórum |  |  |
+|RF-005| Permitir que o usuário esportista faça agendamento de horário | Débora | agendamento.html |
+|RF-006| Permitir que o usuário esportista forneça feedback sobre a experiência com a quadra | Caio | tela 11 - index.html |
+|RF-007| Permitir que o usuário gestor de quadra realize o cadastramento da quadra | João Vitor | gestorCadrastroQuadra.html |
+|RF-009| Permitir que o usuário gestor de quadra confirme as reservas | Caio | telas 10, 12 e 14 - index.html |
+|RF-010| Edição dos dados da quadra | João Vitor | gestorGerenciarQuadras.html |
+|RF-011| Exclusão dos dados da quadra | João Vitor | gestorGerenciarQuadras.html |
+|RF-012| Alterar senha | Gustavo | pessoalData.html |
+|RF-013| Pesquisar pelas quadras cadrastradas | Gustavo | hub.html |
+|RF-014|  fornecer a localização das quadras | Gustavo | hub.html |
 
 
 
