@@ -27,40 +27,40 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Criar sua conta**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Criar".
-**Requisitos associados** | RF-001 - RF-002
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar".
+**Requisitos associados** | RF-001 
 **Resultado esperado** | Usuário Cadastrado para acessar o site
 **Dados de entrada** | Nome Completo, Telefone, Email, Data de Nascimento e Senha
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT00- Fazer login com sua conta**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.atletalink.com.br <br> 2) Clique no botão "Entrar" <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão Entrar
-**Requisitos associados** | RF-003
+**Procedimento**  | 1) Clique no botão "Entrar" <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão Entrar
+**Requisitos associados** | RF-001
 **Resultado esperado** | Acessar o site
 **Dados de entrada** | Email e Senha
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | CT01 - Solicitar agendamento de quadra 
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 4) Clique no botão "Solicitar agendamento".
-**Requisitos associados** | RF-006
+**Procedimento**  | 1) Seleciona uma data e clique em Confirmar <br> 2) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento".
+**Requisitos associados** | RF-005
 **Resultado esperado** | Realizar a solicitação de agendamento pelo usuário esportista                                                                                             
 **Dados de entrada** | Seleção do dia e do horário pretendido
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | CT013 - Alterar senha
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.configurações.com.br <br> 2) selecione a opcão alterar senha<br> 3) digite a nova senha <br> 4)selecione "salvar dados" <br>
-**Requisitos associados** | RF-02
+**Procedimento**  |  1) selecione a opcão alterar senha<br> 2) digite a nova senha <br> 3)selecione "salvar dados" <br>
+**Requisitos associados** | RF-012
 **Resultado esperado** | alterar a senha para uma nova                                                                                           
 **Dados de entrada** | "nova senha"
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | CT014 - Pesquisar quadras
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.home.com.br <br> 2) Selecione a barra de pesquisa <br> 3) pesquise pela quadra <br> 
-**Requisitos associados** | RF-015
+**Procedimento**  | 1) Selecione a barra de pesquisa <br> 2) pesquise pela quadra <br> 
+**Requisitos associados** | RF-013
 **Resultado esperado** | aparecer as quadras relacionadas a pesquisa                                                                                            
 **Dados de entrada** | "nomes de quadras"
 **Resultado obtido** | Sucesso
@@ -68,7 +68,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de teste** | CT008/CT009 - Cadastramento de Quadra
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar o botão de cadastrar quadra <br> 2) incluir os dados da Quadra <br> 3) Salvar os dados da quadra
-**Requisitos associados** | RF-008/RF-009
+**Requisitos associados** | RF-007
 **Resultado esperado** | Será realizado o cadastramento da quadra juntamente com o formato dos horários
 **Dados de entrada** | "Botão de cadastrar quadra"
 **Resultado obtido** | Sucesso
@@ -76,7 +76,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de teste** | CT011 - Edição dos dados da Quadra
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar o botão de Edição <br> 2) Editar dados da Quadra <br> 3) Salvar alterações dos dados da quadra
-**Requisitos associados** | RF-011
+**Requisitos associados** | RF-010
 **Resultado esperado** | Será realizado a edição dos dados da quadra
 **Dados de entrada** | "ícone de lápis"
 **Resultado obtido** | Sucesso
@@ -84,14 +84,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de teste** | CT012 - Exclusão dos dados da Quadra
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar o botão de Exclusão
-**Requisitos associados** | RF-012
+**Requisitos associados** | RF-011
 **Resultado esperado** | Será realizado a exclusão dos dados da quadra
 **Dados de entrada** | "ícone de lixeira"
 **Resultado obtido** | Sucesso
 
 **Caso de teste** | CT002 - Acompanhamento do agendamento
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.atletalink/solicitaragendamento.com.br <br> 2) Seleciona uma data e clique em Confirmar <br> 3) Selecione o horário na quadra desejada <br> 4) Clique no botão "Solicitar agendamento <br> 5) Clique no botão "Avançar".
+**Procedimento**  | 1) Seleciona uma data e clique em Confirmar <br> 2) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento <br> 4) Clique no botão "Avançar".
 **Requisitos associados** | RF-010
 **Resultado esperado** | Será realizado o agendamento da quadra
 **Dados de entrada** | Seleção da quadra e do horário pretendidos
