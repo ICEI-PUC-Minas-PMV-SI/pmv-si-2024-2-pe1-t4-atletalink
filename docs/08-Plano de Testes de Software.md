@@ -92,7 +92,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de teste** | CT002 - Acompanhamento do agendamento
  :--------------: | ------------
 **Procedimento**  | 1) Seleciona uma data e clique em Confirmar <br> 2) Selecione o horário na quadra desejada <br> 3) Clique no botão "Solicitar agendamento <br> 4) Clique no botão "Avançar".
-**Requisitos associados** | RF-010
+**Requisitos associados** | RF-006
 **Resultado esperado** | Será realizado o agendamento da quadra
 **Dados de entrada** | Seleção da quadra e do horário pretendidos
 **Resultado obtido** | Sucesso
